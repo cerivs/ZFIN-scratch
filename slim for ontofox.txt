@@ -1,13 +1,19 @@
-http://purl.obolibrary.org/obo/CHEBI_10036 #wax ester includeAllChildren
-http://purl.obolibrary.org/obo/CHEBI_60004 #mixture includeAllChildren
-http://purl.obolibrary.org/obo/CHEBI_46662 #mineral includeAllChildren
-http://purl.obolibrary.org/obo/CHEBI_83060 #dithiocarbamate salt includeAllChildren
+
+http://purl.obolibrary.org/obo/CHEBI_60004 #mixture
+ includeAllChildren
+http://purl.obolibrary.org/obo/CHEBI_46662 #mineral
+ includeAllChildren
+http://purl.obolibrary.org/obo/CHEBI_83060 #dithiocarbamate salt
+ includeAllChildren
 http://purl.obolibrary.org/obo/CHEBI_4021 #Cyclopamine
-http://purl.obolibrary.org/obo/CHEBI_75379 #blebbistatin includeAllChildren
+http://purl.obolibrary.org/obo/CHEBI_75379 #blebbistatin
+ includeAllChildren
 http://purl.obolibrary.org/obo/CHEBI_35456 #cadmium dichloride
-
+http://purl.obolibrary.org/obo/CHEBI_6533 #Loperamide hydrochloride
+http://purl.obolibrary.org/obo/CHEBI_15355 #acetylcholine
+ includeAllChildren
 http://purl.obolibrary.org/obo/CHEBI_16469 #17beta-estradiol
-
+http://purl.obolibrary.org/obo/CHEBI_63448 #PD173074
 http://purl.obolibrary.org/obo/CHEBI_17347 #testosterone
 http://purl.obolibrary.org/obo/CHEBI_50692 #mifepristone
 http://purl.obolibrary.org/obo/CHEBI_16113 #cholesterol
@@ -15,325 +21,61 @@ http://purl.obolibrary.org/obo/CHEBI_63451 #BGJ-398
 http://purl.obolibrary.org/obo/CHEBI_51739 #acridine orange
 http://purl.obolibrary.org/obo/CHEBI_53448 #methyl cellulose
 http://purl.obolibrary.org/obo/CHEBI_38635 #3-methyladenine
-
+http://purl.obolibrary.org/obo/CHEBI_71957 #XL147
 http://purl.obolibrary.org/obo/CHEBI_15367 #all-trans-retinoic acid
-
+http://purl.obolibrary.org/obo/CHEBI_48080 #brefeldin A
 http://purl.obolibrary.org/obo/CHEBI_16716 #benzene
 http://purl.obolibrary.org/obo/CHEBI_71952 #dactolisib
 http://purl.obolibrary.org/obo/CHEBI_472552 #5-bromo-2'-deoxyuridine
-
+http://purl.obolibrary.org/obo/CHEBI_52289 #wortmannin
 http://purl.obolibrary.org/obo/CHEBI_600103 #daptomycin
-
+http://purl.obolibrary.org/obo/CHEBI_4659 #disulfiram
 http://purl.obolibrary.org/obo/CHEBI_70162 #Majusculamide A/B
-
+http://purl.obolibrary.org/obo/CHEBI_15377 #water
 http://purl.obolibrary.org/obo/CHEBI_28262 #dimethyl sulfoxide
-
+http://purl.obolibrary.org/obo/CHEBI_46024 #trichostatin A
+http://purl.obolibrary.org/obo/CHEBI_73458 #NS-398
 http://purl.obolibrary.org/obo/CHEBI_23995 #N-ethyl-N-nitrosourea
-
+http://purl.obolibrary.org/obo/CHEBI_7507 #neomycin
 http://purl.obolibrary.org/obo/CHEBI_16236 #ethanol
 http://purl.obolibrary.org/obo/CHEBI_4903 #17alpha-ethynylestradiol
 http://purl.obolibrary.org/obo/CHEBI_33666 #polycyclic hydrocarbon
 http://purl.obolibrary.org/obo/CHEBI_29865 #benzo[a]pyrene
 http://purl.obolibrary.org/obo/CHEBI_53156 #polychlorobiphenyl
 http://purl.obolibrary.org/obo/CHEBI_8502 #6-propyl-2-thiouracil   
-http://purl.obolibrary.org/obo/CHEBI_9168 #sirolimus includeAllChildren
+http://purl.obolibrary.org/obo/CHEBI_9168 #sirolimus
+ includeAllChildren
 http://purl.obolibrary.org/obo/CHEBI_63449 #SU5402
-http://purl.obolibrary.org/obo/CHEBI_26888 #tetrachlorobenzene includeAllChildren
+http://purl.obolibrary.org/obo/CHEBI_26888 #tetrachlorobenzene
+ includeAllChildren
 http://purl.obolibrary.org/obo/CHEBI_38452 #tebufenozide
-http://purl.obolibrary.org/obo/CHEBI_9513 #thalidomide includeAllChildren
-http://purl.obolibrary.org/obo/CHEBI_33229 #vitamin includeAllChildren
+http://purl.obolibrary.org/obo/CHEBI_9513 #thalidomide
+ includeAllChildren
+http://purl.obolibrary.org/obo/CHEBI_33229 #vitamin
+ includeAllChildren
 http://purl.obolibrary.org/obo/CHEBI_27375 #vincaleukoblastine
 http://purl.obolibrary.org/obo/CHEBI_45863 #paclitaxel
 http://purl.obolibrary.org/obo/CHEBI_22907 #bleomycin
 http://purl.obolibrary.org/obo/CHEBI_4717 #droperidol
-http://purl.obolibrary.org/obo/CHEBI_35476 #antipsychotic agent includeAllChildren
-http://purl.obolibrary.org/obo/CHEBI_25512 #neurotransmitter includeAllChildren
-http://purl.obolibrary.org/obo/CHEBI_35942 #neurotransmitter agent includeAllChildren
-http://purl.obolibrary.org/obo/CHEBI_23888 #drug agent includeAllChildren
-http://purl.obolibrary.org/obo/CHEBI_26764 #steroid hormone includeAllChildren
-http://purl.obolibrary.org/obo/CHEBI_25905 #peptide hormone includeAllChildren
-http://purl.obolibrary.org/obo/CHEBI_33709 #amino acid includeAllChildren
-http://purl.obolibrary.org/obo/CHEBI_33696 #nucleic acid includeAllChildren
-http://purl.obolibrary.org/obo/CHEBI_24852 #insecticide includeAllChildren
-http://purl.obolibrary.org/obo/CHEBI_62882 #IWR-1-endo
-http://purl.obolibrary.org/obo/CHEBI_62883 #IWR-1-exo
-http://purl.obolibrary.org/obo/CHEBI_6541 #losartan
-http://purl.obolibrary.org/obo/CHEBI_16243 #quercetin
-http://purl.obolibrary.org/obo/CHEBI_78741 #oxidopamine
-http://purl.obolibrary.org/obo/CHEBI_22698 #benzaldehydes
-http://purl.obolibrary.org/obo/CHEBI_8378 #prednisolone includeAllChildren
-http://purl.obolibrary.org/obo/CHEBI_39106 #pyrene includeAllChildren
-http://purl.obolibrary.org/obo/CHEBI_39106 #fulvestrant
-http://purl.obolibrary.org/obo/CHEBI_76208 #sodium sulfide (anhydrous) includeAllChildren
-http://purl.obolibrary.org/obo/CHEBI_50217 #selegiline includeAllChildren
-http://purl.obolibrary.org/obo/CHEBI_65329 #LY294002
-http://purl.obolibrary.org/obo/CHEBI_17158 #methylglyoxal
-http://purl.obolibrary.org/obo/CHEBI_64103 #sodium butyrate
-http://purl.obolibrary.org/obo/CHEBI_50315 #chloronium
-http://purl.obolibrary.org/obo/CHEBI_77954 #2-(2-amino-3-methoxyphenyl)chromen-4-one
-http://purl.obolibrary.org/obo/CHEBI_78331 #PP2
-http://purl.obolibrary.org/obo/CHEBI_171741 #cerulenin
-http://purl.obolibrary.org/obo/CHEBI_75404 #tyrphostin AG 1478
-http://purl.obolibrary.org/obo/CHEBI_75405 #tyrphostin AG 825
-http://purl.obolibrary.org/obo/CHEBI_9654 #trazodone
-http://purl.obolibrary.org/obo/CHEBI_27732 #caffeine
-http://purl.obolibrary.org/obo/CHEBI_47804 #dibenzoazepine
-http://purl.obolibrary.org/obo/CHEBI_17634 #D-glucose includeAllChildren
-http://purl.obolibrary.org/obo/CHEBI_51687 #chrysene
-http://purl.obolibrary.org/obo/CHEBI_7565 #nifedipine
-http://purl.obolibrary.org/obo/CHEBI_16219 #cucurbitacin includeAllChildren
-http://purl.obolibrary.org/obo/CHEBI_50131 #5-aza-2'-deoxycytidine
-http://purl.obolibrary.org/obo/CHEBI_31522 #Doxorubicin hydrochloride
-http://purl.obolibrary.org/obo/CHEBI_28748 #doxorubicin
-http://purl.obolibrary.org/obo/CHEBI_47802 #5H-dibenzo[b,f]azepine
-http://purl.obolibrary.org/obo/CHEBI_2659 #aminophylline
-http://purl.obolibrary.org/obo/CHEBI_6909 #metronidazole
-http://purl.obolibrary.org/obo/CHEBI_77986 #dibenziodolium  
-http://purl.obolibrary.org/obo/CHEBI_77967 #dibenziodolium chloride
-http://purl.obolibrary.org/obo/CHEBI_41879 #dexamethasone includeAllChildren
-http://purl.obolibrary.org/obo/CHEBI_17650 #cortisol  
-http://purl.obolibrary.org/obo/CHEBI_2566 #alendronate sodium
-http://purl.obolibrary.org/obo/CHEBI_16794 #scopolamine
-http://purl.obolibrary.org/obo/CHEBI_8499 #propranolol
-http://purl.obolibrary.org/obo/CHEBI_16980 #geranial includeAllChildren
-http://purl.obolibrary.org/obo/CHEBI_34910 #pentetrazol
-http://purl.obolibrary.org/obo/CHEBI_51348 #tetraphene
-http://purl.obolibrary.org/obo/CHEBI_34133 #11-Keto-testosterone
-http://purl.obolibrary.org/obo/CHEBI_4480 #Diacetylmonoxime
-http://purl.obolibrary.org/obo/CHEBI_28869 #menadione  includeAllChildren
-http://purl.obolibrary.org/obo/CHEBI_27470 #folic acid
-http://purl.obolibrary.org/obo/CHEBI_42471 #forskolin
-http://purl.obolibrary.org/obo/CHEBI_44616 #afimoxifene
-http://purl.obolibrary.org/obo/CHEBI_34555 #Bay-K-8644
-http://purl.obolibrary.org/obo/CHEBI_48607 #lithium chloride
-http://purl.obolibrary.org/obo/CHEBI_29239 #hydride
-http://purl.obolibrary.org/obo/CHEBI_15379 #dioxygen
-http://purl.obolibrary.org/obo/CHEBI_16526 #carbon dioxide.
-http://purl.obolibrary.org/obo/CHEBI_15377 #water
-http://purl.obolibrary.org/obo/CHEBI_24866 #salt includeAllChildren
-http://purl.obolibrary.org/obo/CHEBI_35381 #monosaccharide includeAllChildren
-http://purl.obolibrary.org/obo/CHEBI_36233 #disaccharide includeAllChildren
-http://purl.obolibrary.org/obo/CHEBI_17855 #triglyceride includeAllChildren
-http://purl.obolibrary.org/obo/CHEBI_25944 #pesticide includeAllChildren
-http://purl.obolibrary.org/obo/CHEBI_16412 #lipopolysaccharide includeAllChildren
-http://purl.obolibrary.org/obo/CHEBI_25106 #macrolide includeAllChildren
-http://purl.obolibrary.org/obo/CHEBI_33704 #a-amino acid includeAllChildren
+http://purl.obolibrary.org/obo/CHEBI_35476 #antipsychotic agent
 
-
-
-
-+++++++++++++++
-[URI of the OWL(RDF/XML) output file]
-
-
-[Source ontology]
-CHEBI
-
-[Low level source term URIs]
-http://purl.obolibrary.org/obo/CHEBI_10036 #wax ester
  includeAllChildren
-http://purl.obolibrary.org/obo/CHEBI_60004 #mixture
+http://purl.obolibrary.org/obo/CHEBI_25512 #neurotransmitter
  includeAllChildren
-http://purl.obolibrary.org/obo/CHEBI_46662 #mineral 
-includeAllChildren
-http://purl.obolibrary.org/obo/CHEBI_83060 #dithiocarbamate salt
+http://purl.obolibrary.org/obo/CHEBI_35942 #neurotransmitter agent
  includeAllChildren
-http://purl.obolibrary.org/obo/CHEBI_4021 #Cyclopamine
-
-http://purl.obolibrary.org/obo/CHEBI_35456 #cadmium dichloride
-
-http://purl.obolibrary.org/obo/CHEBI_16469 #17beta-estradiol
-
-http://purl.obolibrary.org/obo/CHEBI_17347 #testosterone
-
-http://purl.obolibrary.org/obo/CHEBI_16113 #cholesterol
-
-http://purl.obolibrary.org/obo/CHEBI_51739 #acridine orange
-
-http://purl.obolibrary.org/obo/CHEBI_38635 #3-methyladenine
-
-http://purl.obolibrary.org/obo/CHEBI_15367 #all-trans-retinoic acid
-
-http://purl.obolibrary.org/obo/CHEBI_16716 #benzene
-
-http://purl.obolibrary.org/obo/CHEBI_472552 #5-bromo-2'-deoxyuridine
-
-http://purl.obolibrary.org/obo/CHEBI_600103 #daptomycin
-
-http://purl.obolibrary.org/obo/CHEBI_70162 #Majusculamide A/B
-
-http://purl.obolibrary.org/obo/CHEBI_28262 #dimethyl sulfoxide
-
-http://purl.obolibrary.org/obo/CHEBI_23995 #N-ethyl-N-nitrosourea
-
-http://purl.obolibrary.org/obo/CHEBI_16236 #ethanol
-http://purl.obolibrary.org/obo/CHEBI_4903 #17alpha-ethynylestradiol
-http://purl.obolibrary.org/obo/CHEBI_33666 #polycyclic hydrocarbon
-http://purl.obolibrary.org/obo/CHEBI_29865 #benzo[a]pyrene
-http://purl.obolibrary.org/obo/CHEBI_53156 #polychlorobiphenyl
-http://purl.obolibrary.org/obo/CHEBI_8502 #6-propyl-2-thiouracil
-http://purl.obolibrary.org/obo/CHEBI_9168 #sirolimus 
-includeAllChildren
-http://purl.obolibrary.org/obo/CHEBI_63449 #SU5402
-http://purl.obolibrary.org/obo/CHEBI_26888 #tetrachlorobenzene 
-includeAllChildren
-http://purl.obolibrary.org/obo/CHEBI_38452 #tebufenozide
-http://purl.obolibrary.org/obo/CHEBI_9513 #thalidomide 
-includeAllChildren
-http://purl.obolibrary.org/obo/CHEBI_33229 #vitamin 
-includeAllChildren
-http://purl.obolibrary.org/obo/CHEBI_27375 #vincaleukoblastine
-http://purl.obolibrary.org/obo/CHEBI_45863 #paclitaxel
-http://purl.obolibrary.org/obo/CHEBI_22907 #bleomycin
-http://purl.obolibrary.org/obo/CHEBI_4717 #droperidol
-http://purl.obolibrary.org/obo/CHEBI_35476 #antipsychotic agent 
-includeAllChildren
-http://purl.obolibrary.org/obo/CHEBI_25512 #neurotransmitter 
-includeAllChildren
-http://purl.obolibrary.org/obo/CHEBI_35942 #neurotransmitter agent 
-includeAllChildren
-http://purl.obolibrary.org/obo/CHEBI_23888 #drug agent 
-includeAllChildren
-http://purl.obolibrary.org/obo/CHEBI_26764 #steroid hormone 
-includeAllChildren
-http://purl.obolibrary.org/obo/CHEBI_25905 #peptide hormone 
-includeAllChildren
-http://purl.obolibrary.org/obo/CHEBI_33709 #amino acid 
-includeAllChildren
+http://purl.obolibrary.org/obo/CHEBI_23888 #drug agent
+ includeAllChildren
+http://purl.obolibrary.org/obo/CHEBI_26764 #steroid hormone
+ includeAllChildren
+http://purl.obolibrary.org/obo/CHEBI_25905 #peptide hormone
+ includeAllChildren
+http://purl.obolibrary.org/obo/CHEBI_33709 #amino acid
+ includeAllChildren
 http://purl.obolibrary.org/obo/CHEBI_33696 #nucleic acid
  includeAllChildren
-http://purl.obolibrary.org/obo/CHEBI_24852 #insecticide 
-includeAllChildren
-http://purl.obolibrary.org/obo/CHEBI_62882 #IWR-1-endo
-http://purl.obolibrary.org/obo/CHEBI_62883 #IWR-1-exo
-http://purl.obolibrary.org/obo/CHEBI_6541 #losartan
-http://purl.obolibrary.org/obo/CHEBI_16243 #quercetin
-http://purl.obolibrary.org/obo/CHEBI_78741 #oxidopamine
-http://purl.obolibrary.org/obo/CHEBI_22698 #benzaldehydes
-http://purl.obolibrary.org/obo/CHEBI_8378 #prednisolone 
-includeAllChildren
-http://purl.obolibrary.org/obo/CHEBI_39106 #pyrene includeAllChildren
-http://purl.obolibrary.org/obo/CHEBI_39106 #fulvestrant
-http://purl.obolibrary.org/obo/CHEBI_76208 #sodium sulfide (anhydrous) 
-includeAllChildren
-http://purl.obolibrary.org/obo/CHEBI_50217 #selegiline 
-includeAllChildren
-http://purl.obolibrary.org/obo/CHEBI_65329 #LY294002
-http://purl.obolibrary.org/obo/CHEBI_17158 #methylglyoxal
-http://purl.obolibrary.org/obo/CHEBI_64103 #sodium butyrate
-http://purl.obolibrary.org/obo/CHEBI_50315 #chloronium
-http://purl.obolibrary.org/obo/CHEBI_77954 #2-(2-amino-3-methoxyphenyl)chromen-4-one
-http://purl.obolibrary.org/obo/CHEBI_78331 #PP2
-http://purl.obolibrary.org/obo/CHEBI_171741 #cerulenin
-http://purl.obolibrary.org/obo/CHEBI_75404 #tyrphostin AG 1478
-http://purl.obolibrary.org/obo/CHEBI_75405 #tyrphostin AG 825
-http://purl.obolibrary.org/obo/CHEBI_9654 #trazodone
-http://purl.obolibrary.org/obo/CHEBI_27732 #caffeine
-http://purl.obolibrary.org/obo/CHEBI_47804 #dibenzoazepine
-http://purl.obolibrary.org/obo/CHEBI_17634 #D-glucose 
-includeAllChildren
-http://purl.obolibrary.org/obo/CHEBI_51687 #chrysene
-http://purl.obolibrary.org/obo/CHEBI_7565 #nifedipine
-http://purl.obolibrary.org/obo/CHEBI_16219 #cucurbitacin 
-includeAllChildren
-http://purl.obolibrary.org/obo/CHEBI_50131 #5-aza-2'-deoxycytidine
-http://purl.obolibrary.org/obo/CHEBI_31522 #Doxorubicin hydrochloride
-http://purl.obolibrary.org/obo/CHEBI_28748 #doxorubicin
-http://purl.obolibrary.org/obo/CHEBI_47802 #5H-dibenzo[b,f]azepine
-http://purl.obolibrary.org/obo/CHEBI_2659 #aminophylline
-http://purl.obolibrary.org/obo/CHEBI_6909 #metronidazole
-http://purl.obolibrary.org/obo/CHEBI_77986 #dibenziodolium  
-http://purl.obolibrary.org/obo/CHEBI_77967 #dibenziodolium chloride
-http://purl.obolibrary.org/obo/CHEBI_41879 #dexamethasone 
-includeAllChildren
-http://purl.obolibrary.org/obo/CHEBI_17650 #cortisol  
-http://purl.obolibrary.org/obo/CHEBI_2566 #alendronate sodium
-http://purl.obolibrary.org/obo/CHEBI_16794 #scopolamine
-http://purl.obolibrary.org/obo/CHEBI_8499 #propranolol
-http://purl.obolibrary.org/obo/CHEBI_16980 #geranial 
-includeAllChildren
-http://purl.obolibrary.org/obo/CHEBI_34910 #pentetrazol
-http://purl.obolibrary.org/obo/CHEBI_51348 #tetraphene
-http://purl.obolibrary.org/obo/CHEBI_34133 #11-Keto-testosterone
-http://purl.obolibrary.org/obo/CHEBI_4480 #Diacetylmonoxime
-http://purl.obolibrary.org/obo/CHEBI_28869 #menadione  
-includeAllChildren
-http://purl.obolibrary.org/obo/CHEBI_27470 #folic acid
-http://purl.obolibrary.org/obo/CHEBI_42471 #forskolin
-http://purl.obolibrary.org/obo/CHEBI_44616 #afimoxifene
-http://purl.obolibrary.org/obo/CHEBI_34555 #Bay-K-8644
-http://purl.obolibrary.org/obo/CHEBI_48607 #lithium chloride
-http://purl.obolibrary.org/obo/CHEBI_29239 #hydride
-http://purl.obolibrary.org/obo/CHEBI_15379 #dioxygen
-http://purl.obolibrary.org/obo/CHEBI_16526 #carbon dioxide.
-http://purl.obolibrary.org/obo/CHEBI_15377 #water
-http://purl.obolibrary.org/obo/CHEBI_24866 #salt 
-includeAllChildren
-http://purl.obolibrary.org/obo/CHEBI_35381 #monosaccharide 
-includeAllChildren
-http://purl.obolibrary.org/obo/CHEBI_36233 #disaccharide 
-includeAllChildren
-http://purl.obolibrary.org/obo/CHEBI_17855 #triglyceride 
-includeAllChildren
-http://purl.obolibrary.org/obo/CHEBI_25944 #pesticide 
-includeAllChildren
-
-[Top level source term URIs and target direct superclass URIs]
-
-
-[Source term retrieval setting]
-includeAllIntermediates
-
-[Source annotation URIs]
-includeAllAxioms
-
-[Source annotation URIs to be excluded]
-http://purl.obolibrary.org/obo/CHEBI_75771
-
-
---------------------------------------------
-http://purl.obolibrary.org/obo/CHEBI_10036 #wax ester includeAllChildren
-http://purl.obolibrary.org/obo/CHEBI_60004 #mixture includeAllChildren
-http://purl.obolibrary.org/obo/CHEBI_46662 #mineral includeAllChildren
-http://purl.obolibrary.org/obo/CHEBI_83060 #dithiocarbamate salt includeAllChildren
-http://purl.obolibrary.org/obo/CHEBI_4021 #Cyclopamine
-http://purl.obolibrary.org/obo/CHEBI_35456 #cadmium dichloride
-http://purl.obolibrary.org/obo/CHEBI_16469 #17beta-estradiol
-http://purl.obolibrary.org/obo/CHEBI_17347 #testosterone
-http://purl.obolibrary.org/obo/CHEBI_16113 #cholesterol
-http://purl.obolibrary.org/obo/CHEBI_51739 #acridine orange
-http://purl.obolibrary.org/obo/CHEBI_38635 #3-methyladenine
-http://purl.obolibrary.org/obo/CHEBI_15367 #all-trans-retinoic acid
-http://purl.obolibrary.org/obo/CHEBI_16716 #benzene
-http://purl.obolibrary.org/obo/CHEBI_472552 #5-bromo-2'-deoxyuridine
-http://purl.obolibrary.org/obo/CHEBI_600103 #daptomycin
-http://purl.obolibrary.org/obo/CHEBI_28262 #dimethyl sulfoxide
-http://purl.obolibrary.org/obo/CHEBI_23995 #N-ethyl-N-nitrosourea
-http://purl.obolibrary.org/obo/CHEBI_16236 #ethanol
-http://purl.obolibrary.org/obo/CHEBI_4903 #17alpha-ethynylestradiol
-http://purl.obolibrary.org/obo/CHEBI_33666 #polycyclic hydrocarbon
-http://purl.obolibrary.org/obo/CHEBI_29865 #benzo[a]pyrene
-http://purl.obolibrary.org/obo/CHEBI_53156 #polychlorobiphenyl
-http://purl.obolibrary.org/obo/CHEBI_8502 #6-propyl-2-thiouracil
-http://purl.obolibrary.org/obo/CHEBI_9168 #sirolimus includeAllChildren
-http://purl.obolibrary.org/obo/CHEBI_63449 #SU5402
-http://purl.obolibrary.org/obo/CHEBI_26888 #tetrachlorobenzene includeAllChildren
-http://purl.obolibrary.org/obo/CHEBI_38452 #tebufenozide
-http://purl.obolibrary.org/obo/CHEBI_9513 #thalidomide includeAllChildren
-http://purl.obolibrary.org/obo/CHEBI_33229 #vitamin includeAllChildren
-http://purl.obolibrary.org/obo/CHEBI_27375 #vincaleukoblastine
-http://purl.obolibrary.org/obo/CHEBI_45863 #paclitaxel
-http://purl.obolibrary.org/obo/CHEBI_22907 #bleomycin
-http://purl.obolibrary.org/obo/CHEBI_4717 #droperidol
-http://purl.obolibrary.org/obo/CHEBI_35476 #antipsychotic agent includeAllChildren
-http://purl.obolibrary.org/obo/CHEBI_25512 #neurotransmitter includeAllChildren
-http://purl.obolibrary.org/obo/CHEBI_35942 #neurotransmitter agent includeAllChildren
-http://purl.obolibrary.org/obo/CHEBI_23888 #drug agent includeAllChildren
-http://purl.obolibrary.org/obo/CHEBI_26764 #steroid hormone includeAllChildren
-http://purl.obolibrary.org/obo/CHEBI_25905 #peptide hormone includeAllChildren
-http://purl.obolibrary.org/obo/CHEBI_33709 #amino acid includeAllChildren
-http://purl.obolibrary.org/obo/CHEBI_33696 #nucleic acid includeAllChildren
-http://purl.obolibrary.org/obo/CHEBI_24852 #insecticide includeAllChildren
+http://purl.obolibrary.org/obo/CHEBI_24852 #insecticide
+ includeAllChildren
 http://purl.obolibrary.org/obo/CHEBI_62882 #IWR-1-endo
 http://purl.obolibrary.org/obo/CHEBI_62883 #IWR-1-exo
 http://purl.obolibrary.org/obo/CHEBI_6541 #losartan
@@ -341,15 +83,20 @@ http://purl.obolibrary.org/obo/CHEBI_16243 #quercetin
 http://purl.obolibrary.org/obo/CHEBI_78741 #oxidopamine
 http://purl.obolibrary.org/obo/CHEBI_22698 #benzaldehydes
 http://purl.obolibrary.org/obo/CHEBI_8378 #prednisolone
+ includeAllChildren
 http://purl.obolibrary.org/obo/CHEBI_39106 #pyrene
+ includeAllChildren
+http://purl.obolibrary.org/obo/CHEBI_39106 #fulvestrant
 http://purl.obolibrary.org/obo/CHEBI_76208 #sodium sulfide (anhydrous)
+ includeAllChildren
 http://purl.obolibrary.org/obo/CHEBI_50217 #selegiline
-http://purl.obolibrary.org/obo/CHEBI_69441 #p-methoxyphenol
+ includeAllChildren
 http://purl.obolibrary.org/obo/CHEBI_65329 #LY294002
 http://purl.obolibrary.org/obo/CHEBI_17158 #methylglyoxal
 http://purl.obolibrary.org/obo/CHEBI_64103 #sodium butyrate
 http://purl.obolibrary.org/obo/CHEBI_50315 #chloronium
 http://purl.obolibrary.org/obo/CHEBI_77954 #2-(2-amino-3-methoxyphenyl)chromen-4-one
+http://purl.obolibrary.org/obo/CHEBI_78331 #PP2
 http://purl.obolibrary.org/obo/CHEBI_171741 #cerulenin
 http://purl.obolibrary.org/obo/CHEBI_75404 #tyrphostin AG 1478
 http://purl.obolibrary.org/obo/CHEBI_75405 #tyrphostin AG 825
@@ -357,108 +104,79 @@ http://purl.obolibrary.org/obo/CHEBI_9654 #trazodone
 http://purl.obolibrary.org/obo/CHEBI_27732 #caffeine
 http://purl.obolibrary.org/obo/CHEBI_47804 #dibenzoazepine
 http://purl.obolibrary.org/obo/CHEBI_17634 #D-glucose
+ includeAllChildren
 http://purl.obolibrary.org/obo/CHEBI_51687 #chrysene
 http://purl.obolibrary.org/obo/CHEBI_7565 #nifedipine
 http://purl.obolibrary.org/obo/CHEBI_16219 #cucurbitacin
+ includeAllChildren
+http://purl.obolibrary.org/obo/CHEBI_50131 #5-aza-2'-deoxycytidine
 http://purl.obolibrary.org/obo/CHEBI_31522 #Doxorubicin hydrochloride
 http://purl.obolibrary.org/obo/CHEBI_28748 #doxorubicin
 http://purl.obolibrary.org/obo/CHEBI_47802 #5H-dibenzo[b,f]azepine
 http://purl.obolibrary.org/obo/CHEBI_2659 #aminophylline
 http://purl.obolibrary.org/obo/CHEBI_6909 #metronidazole
+http://purl.obolibrary.org/obo/CHEBI_77986 #dibenziodolium  
 http://purl.obolibrary.org/obo/CHEBI_77967 #dibenziodolium chloride
-http://purl.obolibrary.org/obo/CHEBI_77986 #dibenziodolium
 http://purl.obolibrary.org/obo/CHEBI_41879 #dexamethasone
-http://purl.obolibrry.org/obo/CHEBI_17650 #cortisol
+ includeAllChildren
+http://purl.obolibrary.org/obo/CHEBI_17650 #cortisol  
 http://purl.obolibrary.org/obo/CHEBI_2566 #alendronate sodium
 http://purl.obolibrary.org/obo/CHEBI_16794 #scopolamine
 http://purl.obolibrary.org/obo/CHEBI_8499 #propranolol
 http://purl.obolibrary.org/obo/CHEBI_16980 #geranial
+ includeAllChildren
 http://purl.obolibrary.org/obo/CHEBI_34910 #pentetrazol
-http://purl.obolibrary.org/obo/CHEBI_34133 #11-Keto-testosterone
 http://purl.obolibrary.org/obo/CHEBI_51348 #tetraphene
+http://purl.obolibrary.org/obo/CHEBI_34133 #11-Keto-testosterone
 http://purl.obolibrary.org/obo/CHEBI_4480 #Diacetylmonoxime
 http://purl.obolibrary.org/obo/CHEBI_28869 #menadione
+  includeAllChildren
 http://purl.obolibrary.org/obo/CHEBI_27470 #folic acid
 http://purl.obolibrary.org/obo/CHEBI_42471 #forskolin
 http://purl.obolibrary.org/obo/CHEBI_44616 #afimoxifene
 http://purl.obolibrary.org/obo/CHEBI_34555 #Bay-K-8644
 http://purl.obolibrary.org/obo/CHEBI_48607 #lithium chloride
 http://purl.obolibrary.org/obo/CHEBI_29239 #hydride
-http://purl.obolibrary.org/obo/CHEBI_26689 #singlet dioxygen
 http://purl.obolibrary.org/obo/CHEBI_15379 #dioxygen
-http://purl.obolibrary.org/obo/CHEBI_16526 #carbon dioxide
+http://purl.obolibrary.org/obo/CHEBI_16526 #carbon dioxide.
 http://purl.obolibrary.org/obo/CHEBI_15377 #water
-http://purl.obolibrary.org/obo/CHEBI_26710 #sodium chloride
-http://purl.obolibrary.org/obo/CHEBI_35156 #calcium salt includeAllChildren
-http://purl.obolibrary.org/obo/CHEBI_24866 #salt includeAllChildren
-http://purl.obolibrary.org/obo/CHEBI_35381 #monosaccharide includeAllChildren
+http://purl.obolibrary.org/obo/CHEBI_24866 #salt
+ includeAllChildren
+http://purl.obolibrary.org/obo/CHEBI_35381 #monosaccharide
+ includeAllChildren
+http://purl.obolibrary.org/obo/CHEBI_36233 #disaccharide
+ includeAllChildren
 http://purl.obolibrary.org/obo/CHEBI_17855 #triglyceride
-http://purl.obolibrary.org/obo/CHEBI_25944 #pesticide includeAllChildren
-+++++++++++++++++
+ includeAllChildren
+http://purl.obolibrary.org/obo/CHEBI_25944 #pesticide
+ includeAllChildren
+http://purl.obolibrary.org/obo/CHEBI_16412 #lipopolysaccharide
+ includeAllChildren
+http://purl.obolibrary.org/obo/CHEBI_25106 #macrolide
+ includeAllChildren
+http://purl.obolibrary.org/obo/CHEBI_33704 #a-amino acid
+ includeAllChildren
+http://purl.obolibrary.org/obo/CHEBI_50673 #methimazole
+http://purl.obolibrary.org/obo/CHEBI_27641 #cycloheximide
+http://purl.obolibrary.org/obo/CHEBI_5118 #fluoxetine
+ includeAllChildren
+http://purl.obolibrary.org/obo/CHEBI_81494 #Tricaine
+http://purl.obolibrary.org/obo/CHEBI_4031 #cyclosporin A
 
-[URI of the OWL(RDF/XML) output file]
-http://purl.obolibrary.org/obo/your_ontology/external/ZECO.owl
-[Source ontology]
-CHEBI
-[Low level source term URIs]
-http://purl.obolibrary.org/obo/CHEBI_10036 #wax ester includeAllChildren
-http://purl.obolibrary.org/obo/CHEBI_60004 #mixture includeAllChildren
-http://purl.obolibrary.org/obo/CHEBI_46662 #mineral includeAllChildren
-http://purl.obolibrary.org/obo/CHEBI_83060 #dithiocarbamate salt includeAllChildren
-http://purl.obolibrary.org/obo/CHEBI_4021 #Cyclopamine
+http://purl.obolibrary.org/obo/CHEBI_7507 #neomycin
+http://purl.obolibrary.org/obo/CHEBI_22507 #aminoglycoside antibiotic
+ includeAllChildren
+http://purl.obolibrary.org/obo/CHEBI_33281 #antimicrobial agent
+ includeAllChildren
+http://purl.obolibrary.org/obo/CHEBI_49662 #indometacin
 
-http://purl.obolibrary.org/obo/CHEBI_35456 #cadmium dichloride
 
-http://purl.obolibrary.org/obo/CHEBI_16469 #17beta-estradiol
 
-http://purl.obolibrary.org/obo/CHEBI_17347 #testosterone
 
-http://purl.obolibrary.org/obo/CHEBI_16113 #cholesterol
-
-http://purl.obolibrary.org/obo/CHEBI_51739 #acridine orange
-
-http://purl.obolibrary.org/obo/CHEBI_38635 #3-methyladenine
-
-http://purl.obolibrary.org/obo/CHEBI_15367 #all-trans-retinoic acid
-
-http://purl.obolibrary.org/obo/CHEBI_16716 #benzene
-
-http://purl.obolibrary.org/obo/CHEBI_472552 #5-bromo-2'-deoxyuridine
-
-http://purl.obolibrary.org/obo/CHEBI_600103 #daptomycin
-
-http://purl.obolibrary.org/obo/CHEBI_70162 #Majusculamide A/B
-
-http://purl.obolibrary.org/obo/CHEBI_28262 #dimethyl sulfoxide
-
-http://purl.obolibrary.org/obo/CHEBI_23995 #N-ethyl-N-nitrosourea
-
-http://purl.obolibrary.org/obo/CHEBI_16236 #ethanol
-http://purl.obolibrary.org/obo/CHEBI_4903 #17alpha-ethynylestradiol
-http://purl.obolibrary.org/obo/CHEBI_33666 #polycyclic hydrocarbon
-http://purl.obolibrary.org/obo/CHEBI_29865 #benzo[a]pyrene
-http://purl.obolibrary.org/obo/CHEBI_53156 #polychlorobiphenyl
-http://purl.obolibrary.org/obo/CHEBI_8502 #6-propyl-2-thiouracil
-http://purl.obolibrary.org/obo/CHEBI_9168 #sirolimus includeAllChildren
-http://purl.obolibrary.org/obo/CHEBI_63449 #SU5402
-http://purl.obolibrary.org/obo/CHEBI_26888 #tetrachlorobenzene includeAllChildren
-http://purl.obolibrary.org/obo/CHEBI_38452 #tebufenozide
-http://purl.obolibrary.org/obo/CHEBI_9513 #thalidomide includeAllChildren
-http://purl.obolibrary.org/obo/CHEBI_33229 #vitamin includeAllChildren
-http://purl.obolibrary.org/obo/CHEBI_27375 #vincaleukoblastine
-http://purl.obolibrary.org/obo/CHEBI_45863 #paclitaxel
-http://purl.obolibrary.org/obo/CHEBI_22907 #bleomycin
-http://purl.obolibrary.org/obo/CHEBI_4717 #droperidol
-http://purl.obolibrary.org/obo/CHEBI_35476 #antipsychotic agent includeAllChildren
-http://purl.obolibrary.org/obo/CHEBI_25512 #neurotransmitter includeAllChildren
-http://purl.obolibrary.org/obo/CHEBI_35942 #neurotransmitter agent includeAllChildren
-http://purl.obolibrary.org/obo/CHEBI_23888 #drug agent includeAllChildren
-http://purl.obolibrary.org/obo/CHEBI_26764 #steroid hormone includeAllChildren
-http://purl.obolibrary.org/obo/CHEBI_25905 #peptide hormone includeAllChildren
-http://purl.obolibrary.org/obo/CHEBI_33709 #amino acid includeAllChildren
-http://purl.obolibrary.org/obo/CHEBI_33696 #nucleic acid includeAllChildren
-http://purl.obolibrary.org/obo/CHEBI_24852 #insecticide includeAllChildren
+ 
 [Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/CHEBI_50906 #role
+subClassOf
 http://purl.obolibrary.org/obo/CHEBI_24431 #chemical entity
 subClassOf
 [Source term retrieval setting]
@@ -466,8 +184,3 @@ includeAllIntermediates
 [Source annotation URIs]
 includeAllAxioms
 [Source annotation URIs to be excluded]
-
-
-http://purl.obolibrary.org/obo/CHEBI_7507 #neomycin
-http://purl.obolibrary.org/obo/CHEBI_22507 #aminoglycoside antibiotic includeAllChildren
-http://purl.obolibrary.org/obo/CHEBI_33281 #antimicrobial agent
