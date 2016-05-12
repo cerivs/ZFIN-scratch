@@ -1,5 +1,29 @@
 format-version: 1.2
-ontology: /untitled-ontology-77
+ontology: /http://purl.obolibrary.org/obo/zeco.owl
+property_value: ZECO:0000103 "Yvonne Bradford" xsd:string
+property_value: ZECO:0000111 "Zebrafish Experimental Conditions Ontology" xsd:string
+
+[Term]
+id: ZECO:0000100
+name: electromagnetic field
+is_a: ZECO:0000128 ! experimental conditions
+
+[Term]
+id: ZECO:0000108
+name: radiation
+property_value: ZECO:0000104 "Experimental condition in which the zebrafish is subjected to radiation. Radiation is the emission or transmission of energy in th form of waves or particles throught space or through a material medium." xsd:string
+is_a: ZECO:0000128 ! experimental conditions
+
+[Term]
+id: ZECO:0000109
+name: electric field
+is_a: ZECO:0000100 ! electromagnetic field
+
+[Term]
+id: ZECO:0000110
+name: magnetic field
+property_value: ZECO:0000104 "Experimental condition in which the fish is exposed to a magnetic field as compared to control conditions. A magnetic field is a region in which the force of magnetism is applied." xsd:string
+is_a: ZECO:0000100 ! electromagnetic field
 
 [Term]
 id: ZECO:0000124
@@ -9,16 +33,23 @@ is_a: owl:Thing
 [Term]
 id: ZECO:0000125
 name: control conditions
+property_value: ZECO:0000101 "" xsd:string
+property_value: ZECO:0000102 "" xsd:string
+property_value: ZECO:0000104 "" xsd:string
 is_a: ZECO:0000124 ! conditions
 
 [Term]
 id: ZECO:0000126
 name: generic control
+property_value: ZECO:0000102 GOC:ymb xsd:string
+property_value: ZECO:0000104 "Experimental condition that is used as a reference point to compare results of treated zebrafish to. Generic experimental controls often use sham injections, injections of vehicle, injections of control MOs, etc. This environment is used for non-standard conditions used in control treatments." xsd:string
 is_a: ZECO:0000125 ! control conditions
 
 [Term]
 id: ZECO:0000127
 name: standard
+property_value: ZECO:0000102 GOC:ymb xsd:string
+property_value: ZECO:0000104 "Experimental condition that is the standard environment for zebrafish husbandry, as described in ‘The Zebrafish Book’. In general the standard environment utilizes contaminant free tank water, heated to 28.5 degrees C, with the fish fed a normal contaminant free diet, with standard osmolarity, pH, and normal light cycle of 14hr light/10hr dark." xsd:string
 is_a: ZECO:0000125 ! control conditions
 
 [Term]
@@ -39,6 +70,8 @@ is_a: ZECO:0000129 ! physical experimental conditions
 [Term]
 id: ZECO:0000131
 name: surgical removal
+property_value: ZECO:0000102 GOC:ymb xsd:string
+property_value: ZECO:0000104 "Experimental condition in which fish’s organ (e.g. heart) or anatomical structure (e.g. fin) is amputated or removed." xsd:string
 is_a: ZECO:0000129 ! physical experimental conditions
 
 [Term]
@@ -58,12 +91,12 @@ is_a: ZECO:0000132 ! fin amputation
 
 [Term]
 id: ZECO:0000135
-name: heart amputation
+name: heart resection
 is_a: ZECO:0000131 ! surgical removal
 
 [Term]
 id: ZECO:0000136
-name: barbel amputation
+name: barbel resection
 is_a: ZECO:0000131 ! surgical removal
 
 [Term]
@@ -94,6 +127,8 @@ is_a: ZECO:0000137 ! targeted damage (ablation)
 [Term]
 id: ZECO:0000142
 name: mechanical stress
+property_value: ZECO:0000102 GOC:ymb xsd:string
+property_value: ZECO:0000104 "Experimental condition in which an external force is applied to the fish or part of the fish." xsd:string
 is_a: ZECO:0000129 ! physical experimental conditions
 
 [Term]
@@ -104,27 +139,22 @@ is_a: ZECO:0000142 ! mechanical stress
 [Term]
 id: ZECO:0000144
 name: gravity
+property_value: ZECO:0000102 GOC:ymb xsd:string
+property_value: ZECO:0000104 "Experimental condition in which the fish is exposed to forces that simulate low or high gravity as  compared to earth’s gravity. Gravity is the force of attraction by which terrestrial bodies tend to fall toward the center of the earth (http://dictionary.reference.com/browse/gravity ). Altered gravity conditions can be applied via a centrifuge or space travel for example." xsd:string
 is_a: ZECO:0000129 ! physical experimental conditions
 
 [Term]
 id: ZECO:0000145
-name: electromagnetic radiation experimental conditions
-is_a: ZECO:0000128 ! experimental conditions
-
-[Term]
-id: ZECO:0000146
-name: magnetic field
-is_a: ZECO:0000145 ! electromagnetic radiation experimental conditions
-
-[Term]
-id: ZECO:0000147
-name: electric field
-is_a: ZECO:0000145 ! electromagnetic radiation experimental conditions
+name: electromagnetic radiation
+property_value: ZECO:0000102 GOC:ymb xsd:string
+property_value: ZECO:0000104 "Experimental condition in which the fish is exposed to ionizing and/or non-ionizing radiation. The radiation could be ionizing such as gamma rays, alpha particles, UV, X-ray and non-ionizing such as infrared, microwaves etc." xsd:string
+is_a: ZECO:0000100 ! electromagnetic field
+is_a: ZECO:0000108 ! radiation
 
 [Term]
 id: ZECO:0000148
 name: ionizing radiation
-is_a: ZECO:0000145 ! electromagnetic radiation experimental conditions
+is_a: ZECO:0000145 ! electromagnetic radiation
 
 [Term]
 id: ZECO:0000149
@@ -144,7 +174,7 @@ is_a: ZECO:0000148 ! ionizing radiation
 [Term]
 id: ZECO:0000152
 name: non-ionizing radiation
-is_a: ZECO:0000145 ! electromagnetic radiation experimental conditions
+is_a: ZECO:0000145 ! electromagnetic radiation
 
 [Term]
 id: ZECO:0000153
@@ -194,11 +224,14 @@ is_a: ZECO:0000157 ! gas composition
 [Term]
 id: ZECO:0000162
 name: hypoxia
+property_value: ZECO:0000104 "Experimental condition in which the oxygen (O2) concentration is lower than the one in controlled conditions." xsd:string
 is_a: ZECO:0000161 ! oxygen content
 
 [Term]
 id: ZECO:0000163
 name: hyperoxia
+property_value: ZECO:0000102 GOC:ymb xsd:string
+property_value: ZECO:0000104 "Experimental condition in which the oxygen (O2) concentration is higher than the one in controlled conditions." xsd:string
 is_a: ZECO:0000161 ! oxygen content
 
 [Term]
@@ -209,11 +242,15 @@ is_a: ZECO:0000156 ! water quality
 [Term]
 id: ZECO:0000165
 name: hypertonic
+property_value: ZECO:0000102 GOC:ymb xsd:string
+property_value: ZECO:0000104 "Experimental condition in which the salt concentration is higher than the one in controlled conditions." xsd:string
 is_a: ZECO:0000164 ! water salinity
 
 [Term]
 id: ZECO:0000166
 name: hypotonic
+property_value: ZECO:0000102 GOC:ymb xsd:string
+property_value: ZECO:0000104 "Experimental condition in which the salt concentration is lower than the one in controlled conditions." xsd:string
 is_a: ZECO:0000164 ! water salinity
 
 [Term]
@@ -263,18 +300,18 @@ is_a: ZECO:0000173 ! modified sodium composition
 
 [Term]
 id: ZECO:0000176
-name: modified potassium
+name: modified potassium composition
 is_a: ZECO:0000169 ! ion composition
 
 [Term]
 id: ZECO:0000177
 name: high potassium
-is_a: ZECO:0000176 ! modified potassium
+is_a: ZECO:0000176 ! modified potassium composition
 
 [Term]
 id: ZECO:0000178
 name: low potassium
-is_a: ZECO:0000176 ! modified potassium
+is_a: ZECO:0000176 ! modified potassium composition
 
 [Term]
 id: ZECO:0000179
@@ -284,17 +321,23 @@ is_a: ZECO:0000169 ! ion composition
 [Term]
 id: ZECO:0000180
 name: acidic
+property_value: ZECO:0000102 GOC:ymb xsd:string
+property_value: ZECO:0000104 "Experimental condition in which the pH of the water is lower than the pH of the controlled conditions." xsd:string
 is_a: ZECO:0000179 ! ph (of the environment) hydrogen ion concentration
 
 [Term]
 id: ZECO:0000181
 name: basic
+property_value: ZECO:0000102 GOC:ymb xsd:string
+property_value: ZECO:0000104 "Experimental condition in which the pH of the water is higher than the pH of the controlled conditions." xsd:string
 is_a: ZECO:0000179 ! ph (of the environment) hydrogen ion concentration
 
 [Term]
 id: ZECO:0000182
 name: germ free
-is_a: ZECO:0000156 ! water quality
+property_value: ZECO:0000102 GOC:ymb xsd:string
+property_value: ZECO:0000104 "Experimental condition in which fish were raised in the absence of bacteria." xsd:string
+is_a: ZECO:0000234 ! biological treatment
 
 [Term]
 id: ZECO:0000183
@@ -314,37 +357,48 @@ is_a: ZECO:0000183 ! housing conditions
 [Term]
 id: ZECO:0000186
 name: temperature exposure
+property_value: ZECO:0000104 "Experimental condition in which fish are subjected to temperatures that differ from controlled temperatures. The standard controlled temperature (according to the zebrafish book) is 28.5 degrees C." xsd:string
 is_a: ZECO:0000128 ! experimental conditions
 
 [Term]
 id: ZECO:0000187
 name: stable temperature exposure
+property_value: ZECO:0000104 "Temperature exposure condition in which fish are raised in temperature different (lower or higher) than the controlled temperature. The standard controlled temperature (according to the zebrafish book) is 28.5 degrees C." xsd:string
 is_a: ZECO:0000186 ! temperature exposure
 
 [Term]
 id: ZECO:0000188
 name: cold exposure
-is_a: ZECO:0000186 ! temperature exposure
+property_value: ZECO:0000102 GOC:ymb xsd:string
+property_value: ZECO:0000104 "Experimental condition in which fish are raised in temperature that is lower than the controlled temperature. The standard controlled temperature (according to the zebrafish book) is 28.5 degrees C." xsd:string
+is_a: ZECO:0000187 ! stable temperature exposure
 
 [Term]
 id: ZECO:0000189
 name: hot exposure
-is_a: ZECO:0000186 ! temperature exposure
+property_value: ZECO:0000102 GOC:ymb xsd:string
+property_value: ZECO:0000104 "Experimental condition in which fish are raised in temperature that is higher than the controlled temperature. The standard controlled temperature (according to the zebrafish book) is 28.5 degrees C." xsd:string
+is_a: ZECO:0000187 ! stable temperature exposure
 
 [Term]
 id: ZECO:0000190
-name: exposure to temperature shock
-is_a: ZECO:0000128 ! experimental conditions
+name: temperature shock
+property_value: ZECO:0000104 "Temperature exposure condition in which fish are subjected for a short period of time to temperature that is lower or higher than the controlled temperature. The standard controlled temperature (according to the zebrafish book) is 28.5 degrees C." xsd:string
+is_a: ZECO:0000186 ! temperature exposure
 
 [Term]
 id: ZECO:0000191
 name: cold shock
-is_a: ZECO:0000190 ! exposure to temperature shock
+property_value: ZECO:0000102 GOC:ymb xsd:string
+property_value: ZECO:0000104 "Experimental condition in which fish are subjected for a short period of time to temperature lower than the controlled temperature. The standard controlled temperature (according to the zebrafish book) is 28.5 degrees C." xsd:string
+is_a: ZECO:0000190 ! temperature shock
 
 [Term]
 id: ZECO:0000192
 name: heat shock
-is_a: ZECO:0000190 ! exposure to temperature shock
+property_value: ZECO:0000102 GOC:ymb xsd:string
+property_value: ZECO:0000104 "Experimental condition in which fish are subjected for a short period of time to temperature higher than the controlled temperature. The standard controlled temperature (according to the zebrafish book) is 28.5 degrees C." xsd:string
+is_a: ZECO:0000190 ! temperature shock
 
 [Term]
 id: ZECO:0000193
@@ -389,22 +443,22 @@ is_a: ZECO:0000199 ! fat content
 [Term]
 id: ZECO:0000201
 name: high triglyceride
-is_a: ZECO:0000199 ! fat content
+is_a: ZECO:0000200 ! high fat
 
 [Term]
 id: ZECO:0000202
 name: high ldl
-is_a: ZECO:0000199 ! fat content
+is_a: ZECO:0000200 ! high fat
 
 [Term]
 id: ZECO:0000203
 name: high hdl
-is_a: ZECO:0000199 ! fat content
+is_a: ZECO:0000200 ! high fat
 
 [Term]
 id: ZECO:0000204
 name: low fat
-is_a: ZECO:0000198 ! food content
+is_a: ZECO:0000199 ! fat content
 
 [Term]
 id: ZECO:0000205
@@ -514,6 +568,8 @@ is_a: ZECO:0000223 ! food contaminated content
 [Term]
 id: ZECO:0000226
 name: lighting conditions
+property_value: ZECO:0000102 GOC:ymb xsd:string
+property_value: ZECO:0000104 "Experimental condition in which the intensity, wavelength, and/or duration of illumination is (are) different from the one in controlled conditions." xsd:string
 is_a: ZECO:0000128 ! experimental conditions
 
 [Term]
@@ -543,12 +599,12 @@ is_a: ZECO:0000226 ! lighting conditions
 
 [Term]
 id: ZECO:0000232
-name: high intensity
+name: high light intensity
 is_a: ZECO:0000231 ! light intensity
 
 [Term]
 id: ZECO:0000233
-name: low intensity
+name: low light intensity
 is_a: ZECO:0000231 ! light intensity
 
 [Term]
@@ -559,57 +615,34 @@ is_a: ZECO:0000128 ! experimental conditions
 [Term]
 id: ZECO:0000235
 name: bacterial treatment
+property_value: ZECO:0000104 "Experimental condition in which fish have been infected with bacteria. This infection can be done by addition of bacteria in the water or by injection of bacteria, (for example in the brain ventricle, in the caudal vein, in the yolk sac), or ingestion, or other means." xsd:string
 is_a: ZECO:0000234 ! biological treatment
 
 [Term]
 id: ZECO:0000236
 name: fungal treatment
+property_value: ZECO:0000102 GOC:ymb xsd:string
+property_value: ZECO:0000104 "Experimental condition in which fish have been infected with a fungus." xsd:string
 is_a: ZECO:0000234 ! biological treatment
 
 [Term]
 id: ZECO:0000237
 name: viral treatment
+property_value: ZECO:0000104 "Experimental condition in which fish have been infected with a virus." xsd:string
 is_a: ZECO:0000234 ! biological treatment
 
 [Term]
 id: ZECO:0000238
 name: protozoan treatment
+property_value: ZECO:0000104 "Experimental condition in which fish have been infected with protozoa." xsd:string
 is_a: ZECO:0000234 ! biological treatment
 
 [Term]
 id: ZECO:0000239
 name: chemical treatment
+property_value: ZECO:0000102 GOC:ymb xsd:string
+property_value: ZECO:0000104 "Experimental condition in which the fish is treated with a chemical substance. This treatment could be administered by adding the chemical substance to the tank water, injections, or by consumption." xsd:string
 is_a: ZECO:0000128 ! experimental conditions
-
-[Term]
-id: ZECO:0000240
-name: genetic treatment
-is_a: ZECO:0000128 ! experimental conditions
-
-[Term]
-id: ZECO:0000241
-name: mo
-is_a: ZECO:0000240 ! genetic treatment
-
-[Term]
-id: ZECO:0000242
-name: talen
-is_a: ZECO:0000240 ! genetic treatment
-
-[Term]
-id: ZECO:0000243
-name: crisper
-is_a: ZECO:0000240 ! genetic treatment
-
-[Term]
-id: ZECO:0000244
-name: rna injection
-is_a: ZECO:0000240 ! genetic treatment
-
-[Term]
-id: ZECO:0000245
-name: protein injection
-is_a: ZECO:0000240 ! genetic treatment
 
 [Term]
 id: ZECO:0000246
@@ -619,10 +652,42 @@ is_a: ZECO:0000128 ! experimental conditions
 [Term]
 id: ZECO:0000247
 name: organ culture
+property_value: ZECO:0000102 GOC:ymb xsd:string
+property_value: ZECO:0000104 "Experimental condition in which an organ is dissected/isolated/collected from the fish and placed in culture. The analysis of the experiment is done on this organ in culture." xsd:string
 is_a: ZECO:0000246 ! in vitro culture
 
 [Term]
 id: ZECO:0000248
 name: primary cell culture
+property_value: ZECO:0000102 GOC:ymb xsd:string
+property_value: ZECO:0000104 "Experimental condition in which an embryo or adult fish is dissociated to a single cell suspension. The analysis is made on this cell culture." xsd:string
 is_a: ZECO:0000246 ! in vitro culture
+
+[Term]
+id: circular_flow
+is_a: water_flow
+
+[Term]
+id: through_flow
+is_a: water_flow
+
+[Term]
+id: water_flow
+is_a: ZECO:0000142 ! mechanical stress
+
+[Typedef]
+id: ZECO:0000105
+name: part_of
+property_value: ZECO:0000101 "part_of" xsd:string
+property_value: ZECO:0000102 BFO:0000050 xsd:string
+property_value: ZECO:0000104 BFO:0000050 xsd:string
+property_value: ZECO:0000107 "Zebrafish Experimental Conditions ontology" xsd:string
+is_transitive: true
+
+[Typedef]
+id: ZECO:0000106
+name: has_component
+property_value: ZECO:0000101 "has_component" xsd:string
+property_value: ZECO:0000102 RO:0002211 xsd:string
+property_value: ZECO:0000107 "Zebrafish Experimental Conditions ontology" xsd:string
 

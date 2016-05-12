@@ -1,1146 +1,1902 @@
-Prefix: dc: <http://purl.org/dc/elements/1.1/>
-Prefix: owl: <http://www.w3.org/2002/07/owl#>
-Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-Prefix: xml: <http://www.w3.org/XML/1998/namespace>
-Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
-Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="/http://purl.obolibrary.org/obo/zeco.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="/http://purl.obolibrary.org/obo/zeco.owl">
+    <Prefix name="dc" IRI="http://purl.org/dc/elements/1.1/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty IRI="/ZECO_0000103"/>
+        <Literal datatypeIRI="&xsd;string">Yvonne Bradford</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="/ZECO_0000111"/>
+        <Literal datatypeIRI="&xsd;string">Zebrafish Experimental Conditions Ontology</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="#circular_flow"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#through_flow"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#water_flow"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ZECO_0000100"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ZECO_0000108"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ZECO_0000109"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ZECO_0000110"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000124"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000125"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000126"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000127"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000128"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000129"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000130"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000131"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000132"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000133"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000134"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000135"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000136"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000137"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000138"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000139"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000140"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000141"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000142"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000143"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000144"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000145"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000148"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000149"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000150"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000151"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000152"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000153"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000154"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000155"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000156"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000157"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000158"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000159"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000160"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000161"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000162"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000163"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000164"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000165"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000166"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000167"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000168"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000169"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000170"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000171"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000172"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000173"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000174"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000175"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000176"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000177"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000178"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000179"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000180"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000181"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000182"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000183"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000184"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000185"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000186"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000187"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000188"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000189"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000190"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000191"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000192"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000193"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000194"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000195"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000196"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000197"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000198"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000199"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000200"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000201"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000202"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000203"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000204"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000205"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000206"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000207"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000208"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000209"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000210"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000211"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000212"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000213"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000214"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000215"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000216"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000217"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000218"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000219"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000220"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000221"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000222"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000223"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000224"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000225"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000226"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000227"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000228"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000229"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000230"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000231"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000232"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000233"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000234"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000235"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000236"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000237"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000238"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000239"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000246"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000247"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000248"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/ZECO_0000105"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/ZECO_0000106"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="/ZECO_0000101"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="/ZECO_0000102"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="/ZECO_0000103"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="/ZECO_0000104"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="/ZECO_0000107"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="/ZECO_0000111"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+    </Declaration>
+    <Declaration>
+        <Datatype abbreviatedIRI="rdf:PlainLiteral"/>
+    </Declaration>
+    <Declaration>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#circular_flow"/>
+        <Class IRI="#water_flow"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#through_flow"/>
+        <Class IRI="#water_flow"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#water_flow"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000142"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/ZECO_0000100"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000128"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/ZECO_0000108"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000128"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/ZECO_0000109"/>
+        <Class IRI="/ZECO_0000100"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/ZECO_0000110"/>
+        <Class IRI="/ZECO_0000100"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000124"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000125"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000124"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000126"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000125"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000127"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000125"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000128"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000124"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000129"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000128"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000130"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000129"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000131"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000129"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000132"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000131"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000133"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000132"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000134"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000132"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000135"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000131"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000136"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000131"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000137"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000129"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000138"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000137"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000139"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000138"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000140"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000138"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000141"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000137"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000142"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000129"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000143"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000142"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000144"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000129"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000145"/>
+        <Class IRI="/ZECO_0000100"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000145"/>
+        <Class IRI="/ZECO_0000108"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000148"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000145"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000149"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000148"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000150"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000148"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000151"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000148"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000152"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000145"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000153"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000152"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000154"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000152"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000155"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000152"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000156"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000128"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000157"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000156"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000158"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000157"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000159"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000158"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000160"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000158"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000161"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000157"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000162"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000161"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000163"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000161"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000164"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000156"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000165"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000164"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000166"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000164"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000167"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000164"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000168"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000164"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000169"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000156"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000170"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000169"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000171"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000170"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000172"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000170"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000173"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000169"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000174"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000173"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000175"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000173"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000176"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000169"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000177"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000176"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000178"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000176"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000179"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000169"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000180"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000179"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000181"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000179"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000182"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000234"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000183"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000128"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000184"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000183"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000185"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000183"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000186"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000128"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000187"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000186"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000188"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000187"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000189"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000187"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000190"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000186"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000191"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000190"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000192"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000190"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000193"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000128"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000194"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000193"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000195"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000194"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000196"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000194"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000197"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000194"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000198"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000193"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000199"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000198"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000200"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000199"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000201"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000200"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000202"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000200"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000203"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000200"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000204"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000199"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000205"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000204"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000206"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000204"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000207"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000204"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000208"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000198"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000209"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000208"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000210"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000208"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000211"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000198"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000212"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000211"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000213"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000212"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000214"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000212"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000215"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000212"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000216"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000211"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000217"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000216"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000218"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000216"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000219"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000216"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000220"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000198"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000221"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000220"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000222"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000220"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000223"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000198"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000224"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000223"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000225"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000223"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000226"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000128"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000227"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000226"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000228"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000227"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000229"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000227"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000230"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000227"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000231"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000226"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000232"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000231"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000233"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000231"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000234"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000128"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000235"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000234"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000236"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000234"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000237"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000234"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000238"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000234"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000239"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000128"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000246"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000128"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000247"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000246"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000248"/>
+        <Class IRI="http://purl.obolibrary.org/obo/ZECO_0000246"/>
+    </SubClassOf>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="/ZECO_0000105"/>
+    </TransitiveObjectProperty>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/ZECO_0000100</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">electromagnetic field</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/ZECO_0000101</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">id</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/ZECO_0000102</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">database_cross_reference</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/ZECO_0000103</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">created_by</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/ZECO_0000104</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">definition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/ZECO_0000101"/>
+        <IRI>/ZECO_0000105</IRI>
+        <Literal datatypeIRI="&xsd;string">part_of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/ZECO_0000102"/>
+        <IRI>/ZECO_0000105</IRI>
+        <Literal datatypeIRI="&xsd;string">BFO:0000050</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/ZECO_0000104"/>
+        <IRI>/ZECO_0000105</IRI>
+        <Literal datatypeIRI="&xsd;string">BFO:0000050</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/ZECO_0000107"/>
+        <IRI>/ZECO_0000105</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Zebrafish Experimental Conditions ontology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/ZECO_0000105</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">part_of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/ZECO_0000101"/>
+        <IRI>/ZECO_0000106</IRI>
+        <Literal datatypeIRI="&xsd;string">has_component</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/ZECO_0000102"/>
+        <IRI>/ZECO_0000106</IRI>
+        <Literal datatypeIRI="&xsd;string">RO:0002211</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/ZECO_0000107"/>
+        <IRI>/ZECO_0000106</IRI>
+        <Literal datatypeIRI="&xsd;string">Zebrafish Experimental Conditions ontology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/ZECO_0000106</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">has_component</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/ZECO_0000107</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">has_obo_namespace</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/ZECO_0000104"/>
+        <IRI>/ZECO_0000108</IRI>
+        <Literal datatypeIRI="&xsd;string">Experimental condition in which the zebrafish is subjected to radiation. Radiation is the emission or transmission of energy in th form of waves or particles throught space or through a material medium.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/ZECO_0000108</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">radiation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/ZECO_0000109</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">electric field</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/ZECO_0000104"/>
+        <IRI>/ZECO_0000110</IRI>
+        <Literal datatypeIRI="&xsd;string">Experimental condition in which the fish is exposed to a magnetic field as compared to control conditions. A magnetic field is a region in which the force of magnetism is applied.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/ZECO_0000110</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">magnetic field</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/ZECO_0000111</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Title</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000124</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">conditions</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/ZECO_0000101"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000125</IRI>
+        <Literal datatypeIRI="&xsd;string"></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/ZECO_0000102"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000125</IRI>
+        <Literal datatypeIRI="&xsd;string"></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/ZECO_0000104"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000125</IRI>
+        <Literal datatypeIRI="&xsd;string"></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000125</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">control conditions</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/ZECO_0000102"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000126</IRI>
+        <Literal datatypeIRI="&xsd;string">GOC:ymb</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/ZECO_0000104"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000126</IRI>
+        <Literal datatypeIRI="&xsd;string">Experimental condition that is used as a reference point to compare results of treated zebrafish to. Generic experimental controls often use sham injections, injections of vehicle, injections of control MOs, etc. This environment is used for non-standard conditions used in control treatments.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000126</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">generic control</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/ZECO_0000102"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000127</IRI>
+        <Literal datatypeIRI="&xsd;string">GOC:ymb</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/ZECO_0000104"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000127</IRI>
+        <Literal datatypeIRI="&xsd;string">Experimental condition that is the standard environment for zebrafish husbandry, as described in ‘The Zebrafish Book’. In general the standard environment utilizes contaminant free tank water, heated to 28.5 degrees C, with the fish fed a normal contaminant free diet, with standard osmolarity, pH, and normal light cycle of 14hr light/10hr dark.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000127</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">standard</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000128</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">experimental conditions</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000129</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">physical experimental conditions</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000130</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">surgical manipulation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/ZECO_0000102"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000131</IRI>
+        <Literal datatypeIRI="&xsd;string">GOC:ymb</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/ZECO_0000104"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000131</IRI>
+        <Literal datatypeIRI="&xsd;string">Experimental condition in which fish’s organ (e.g. heart) or anatomical structure (e.g. fin) is amputated or removed.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000131</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">surgical removal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000132</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">fin amputation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000133</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">caudal fin amputation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000134</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">pectoral fin amputation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000135</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">heart resection</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000136</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">barbel resection</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000137</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">targeted damage (ablation)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000138</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">retinal damage</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000139</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">high intensity light</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000140</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">perforation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000141</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">skin damage</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/ZECO_0000102"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000142</IRI>
+        <Literal datatypeIRI="&xsd;string">GOC:ymb</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/ZECO_0000104"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000142</IRI>
+        <Literal datatypeIRI="&xsd;string">Experimental condition in which an external force is applied to the fish or part of the fish.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000142</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">mechanical stress</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000143</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">vibration</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/ZECO_0000102"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000144</IRI>
+        <Literal datatypeIRI="&xsd;string">GOC:ymb</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/ZECO_0000104"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000144</IRI>
+        <Literal datatypeIRI="&xsd;string">Experimental condition in which the fish is exposed to forces that simulate low or high gravity as  compared to earth’s gravity. Gravity is the force of attraction by which terrestrial bodies tend to fall toward the center of the earth (http://dictionary.reference.com/browse/gravity ). Altered gravity conditions can be applied via a centrifuge or space travel for example.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000144</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">gravity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/ZECO_0000102"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000145</IRI>
+        <Literal datatypeIRI="&xsd;string">GOC:ymb</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/ZECO_0000104"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000145</IRI>
+        <Literal datatypeIRI="&xsd;string">Experimental condition in which the fish is exposed to ionizing and/or non-ionizing radiation. The radiation could be ionizing such as gamma rays, alpha particles, UV, X-ray and non-ionizing such as infrared, microwaves etc.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000145</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">electromagnetic radiation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000148</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">ionizing radiation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000149</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">gamma ray</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000150</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">xray</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000151</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">ionizing uv radiation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000152</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">non-ionizing radiation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000153</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">visible light</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000154</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">non-ionizing uv</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000155</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">infrared</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000156</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">water quality</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000157</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">gas composition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000158</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">carbon dioxide content</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000159</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hypocapnia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000160</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hypercapnia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000161</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">oxygen content</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/ZECO_0000104"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000162</IRI>
+        <Literal datatypeIRI="&xsd;string">Experimental condition in which the oxygen (O2) concentration is lower than the one in controlled conditions.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000162</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hypoxia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/ZECO_0000102"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000163</IRI>
+        <Literal datatypeIRI="&xsd;string">GOC:ymb</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/ZECO_0000104"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000163</IRI>
+        <Literal datatypeIRI="&xsd;string">Experimental condition in which the oxygen (O2) concentration is higher than the one in controlled conditions.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000163</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hyperoxia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000164</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">water salinity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/ZECO_0000102"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000165</IRI>
+        <Literal datatypeIRI="&xsd;string">GOC:ymb</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/ZECO_0000104"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000165</IRI>
+        <Literal datatypeIRI="&xsd;string">Experimental condition in which the salt concentration is higher than the one in controlled conditions.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000165</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hypertonic</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/ZECO_0000102"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000166</IRI>
+        <Literal datatypeIRI="&xsd;string">GOC:ymb</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/ZECO_0000104"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000166</IRI>
+        <Literal datatypeIRI="&xsd;string">Experimental condition in which the salt concentration is lower than the one in controlled conditions.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000166</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hypotonic</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000167</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">isotonic</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000168</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">stable</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000169</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">ion composition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000170</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">modified calcium composition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000171</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">high calcium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000172</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">low calcium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000173</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">modified sodium composition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000174</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">high sodium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000175</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">low sodium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000176</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">modified potassium composition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000177</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">high potassium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000178</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">low potassium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000179</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">ph (of the environment) hydrogen ion concentration</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/ZECO_0000102"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000180</IRI>
+        <Literal datatypeIRI="&xsd;string">GOC:ymb</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/ZECO_0000104"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000180</IRI>
+        <Literal datatypeIRI="&xsd;string">Experimental condition in which the pH of the water is lower than the pH of the controlled conditions.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000180</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">acidic</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/ZECO_0000102"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000181</IRI>
+        <Literal datatypeIRI="&xsd;string">GOC:ymb</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/ZECO_0000104"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000181</IRI>
+        <Literal datatypeIRI="&xsd;string">Experimental condition in which the pH of the water is higher than the pH of the controlled conditions.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000181</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">basic</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/ZECO_0000102"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000182</IRI>
+        <Literal datatypeIRI="&xsd;string">GOC:ymb</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/ZECO_0000104"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000182</IRI>
+        <Literal datatypeIRI="&xsd;string">Experimental condition in which fish were raised in the absence of bacteria.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000182</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">germ free</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000183</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">housing conditions</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000184</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">overcrowding</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000185</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">open roofed</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/ZECO_0000104"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000186</IRI>
+        <Literal datatypeIRI="&xsd;string">Experimental condition in which fish are subjected to temperatures that differ from controlled temperatures. The standard controlled temperature (according to the zebrafish book) is 28.5 degrees C.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000186</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">temperature exposure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/ZECO_0000104"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000187</IRI>
+        <Literal datatypeIRI="&xsd;string">Temperature exposure condition in which fish are raised in temperature different (lower or higher) than the controlled temperature. The standard controlled temperature (according to the zebrafish book) is 28.5 degrees C.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000187</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">stable temperature exposure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/ZECO_0000102"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000188</IRI>
+        <Literal datatypeIRI="&xsd;string">GOC:ymb</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/ZECO_0000104"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000188</IRI>
+        <Literal datatypeIRI="&xsd;string">Experimental condition in which fish are raised in temperature that is lower than the controlled temperature. The standard controlled temperature (according to the zebrafish book) is 28.5 degrees C.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000188</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">cold exposure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/ZECO_0000102"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000189</IRI>
+        <Literal datatypeIRI="&xsd;string">GOC:ymb</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/ZECO_0000104"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000189</IRI>
+        <Literal datatypeIRI="&xsd;string">Experimental condition in which fish are raised in temperature that is higher than the controlled temperature. The standard controlled temperature (according to the zebrafish book) is 28.5 degrees C.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000189</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hot exposure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/ZECO_0000104"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000190</IRI>
+        <Literal datatypeIRI="&xsd;string">Temperature exposure condition in which fish are subjected for a short period of time to temperature that is lower or higher than the controlled temperature. The standard controlled temperature (according to the zebrafish book) is 28.5 degrees C.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000190</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">temperature shock</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/ZECO_0000102"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000191</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">GOC:ymb</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/ZECO_0000104"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000191</IRI>
+        <Literal datatypeIRI="&xsd;string">Experimental condition in which fish are subjected for a short period of time to temperature lower than the controlled temperature. The standard controlled temperature (according to the zebrafish book) is 28.5 degrees C.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000191</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">cold shock</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/ZECO_0000102"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000192</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">GOC:ymb</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/ZECO_0000104"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000192</IRI>
+        <Literal datatypeIRI="&xsd;string">Experimental condition in which fish are subjected for a short period of time to temperature higher than the controlled temperature. The standard controlled temperature (according to the zebrafish book) is 28.5 degrees C.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000192</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">heat shock</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000193</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">diet</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000194</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">food availability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000195</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">fasting</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000196</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">limited availability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000197</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">unlimited availability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000198</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">food content</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000199</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">fat content</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000200</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">high fat</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000201</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">high triglyceride</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000202</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">high ldl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000203</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">high hdl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000204</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">low fat</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000205</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">low triglyceride</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000206</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">low ldl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000207</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">low hdl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000208</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">cholesterol content</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000209</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">high cholesterol</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000210</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">low cholesterol</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000211</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">sugar content</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000212</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">high sugar</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000213</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">high glucose</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000214</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">high fructose</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000215</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">high sucrose</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000216</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">low sugar</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000217</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">low glucose</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000218</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">low fructose</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000219</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">low  sucrose</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000220</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">protein content</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000221</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">high protein</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000222</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">low protein</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000223</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">food contaminated content</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000224</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">lead</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000225</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">radionuclides</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/ZECO_0000102"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000226</IRI>
+        <Literal datatypeIRI="&xsd;string">GOC:ymb</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/ZECO_0000104"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000226</IRI>
+        <Literal datatypeIRI="&xsd;string">Experimental condition in which the intensity, wavelength, and/or duration of illumination is (are) different from the one in controlled conditions.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000226</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">lighting conditions</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000227</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">light duration</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000228</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">constant light</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000229</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">constant dark</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000230</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">altered light/dark cycle</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000231</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">light intensity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000232</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">high light intensity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000233</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">low light intensity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000234</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">biological treatment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/ZECO_0000104"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000235</IRI>
+        <Literal datatypeIRI="&xsd;string">Experimental condition in which fish have been infected with bacteria. This infection can be done by addition of bacteria in the water or by injection of bacteria, (for example in the brain ventricle, in the caudal vein, in the yolk sac), or ingestion, or other means.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000235</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">bacterial treatment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/ZECO_0000102"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000236</IRI>
+        <Literal datatypeIRI="&xsd;string">GOC:ymb</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/ZECO_0000104"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000236</IRI>
+        <Literal datatypeIRI="&xsd;string">Experimental condition in which fish have been infected with a fungus.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000236</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">fungal treatment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/ZECO_0000104"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000237</IRI>
+        <Literal datatypeIRI="&xsd;string">Experimental condition in which fish have been infected with a virus.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000237</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">viral treatment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/ZECO_0000104"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000238</IRI>
+        <Literal datatypeIRI="&xsd;string">Experimental condition in which fish have been infected with protozoa.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000238</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">protozoan treatment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/ZECO_0000102"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000239</IRI>
+        <Literal datatypeIRI="&xsd;string">GOC:ymb</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/ZECO_0000104"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000239</IRI>
+        <Literal datatypeIRI="&xsd;string">Experimental condition in which the fish is treated with a chemical substance. This treatment could be administered by adding the chemical substance to the tank water, injections, or by consumption.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000239</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">chemical treatment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000246</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">in vitro culture</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/ZECO_0000102"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000247</IRI>
+        <Literal datatypeIRI="&xsd;string">GOC:ymb</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/ZECO_0000104"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000247</IRI>
+        <Literal datatypeIRI="&xsd;string">Experimental condition in which an organ is dissected/isolated/collected from the fish and placed in culture. The analysis of the experiment is done on this organ in culture.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000247</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">organ culture</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/ZECO_0000102"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000248</IRI>
+        <Literal datatypeIRI="&xsd;string">GOC:ymb</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/ZECO_0000104"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000248</IRI>
+        <Literal datatypeIRI="&xsd;string">Experimental condition in which an embryo or adult fish is dissociated to a single cell suspension. The analysis is made on this cell culture.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/ZECO_0000248</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">primary cell culture</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net -->
 
-
-
-Ontology: </http://purl.obolibrary.org/obo/zeco.owl>
-
-
-AnnotationProperty: rdfs:label
-
-    
-Datatype: rdf:PlainLiteral
-
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000232>
-
-    Annotations: 
-        rdfs:label "high intensity"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000231>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000130>
-
-    Annotations: 
-        rdfs:label "surgical manipulation"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000129>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000159>
-
-    Annotations: 
-        rdfs:label "hypocapnia"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000158>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000158>
-
-    Annotations: 
-        rdfs:label "carbon dioxide content"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000157>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000157>
-
-    Annotations: 
-        rdfs:label "gas composition"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000156>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000156>
-
-    Annotations: 
-        rdfs:label "water quality"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000128>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000155>
-
-    Annotations: 
-        rdfs:label "infrared"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000152>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000154>
-
-    Annotations: 
-        rdfs:label "non-ionizing uv"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000152>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000153>
-
-    Annotations: 
-        rdfs:label "visible light"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000152>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000152>
-
-    Annotations: 
-        rdfs:label "non-ionizing radiation"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000145>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000151>
-
-    Annotations: 
-        rdfs:label "ionizing uv radiation"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000148>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000150>
-
-    Annotations: 
-        rdfs:label "xray"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000148>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000166>
-
-    Annotations: 
-        rdfs:label "hypotonic"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000164>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000149>
-
-    Annotations: 
-        rdfs:label "gamma ray"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000148>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000148>
-
-    Annotations: 
-        rdfs:label "ionizing radiation"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000145>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000147>
-
-    Annotations: 
-        rdfs:label "electric field"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000145>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000146>
-
-    Annotations: 
-        rdfs:label "magnetic field"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000145>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000145>
-
-    Annotations: 
-        rdfs:label "electromagnetic radiation experimental conditions"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000128>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000144>
-
-    Annotations: 
-        rdfs:label "gravity"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000129>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000143>
-
-    Annotations: 
-        rdfs:label "vibration"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000142>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000142>
-
-    Annotations: 
-        rdfs:label "mechanical stress"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000129>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000141>
-
-    Annotations: 
-        rdfs:label "skin damage"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000137>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000140>
-
-    Annotations: 
-        rdfs:label "perforation"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000138>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000248>
-
-    Annotations: 
-        rdfs:label "primary cell culture"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000246>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000247>
-
-    Annotations: 
-        rdfs:label "organ culture"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000246>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000246>
-
-    Annotations: 
-        rdfs:label "in vitro culture"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000128>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000245>
-
-    Annotations: 
-        rdfs:label "protein injection"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000240>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000244>
-
-    Annotations: 
-        rdfs:label "rna injection"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000240>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000243>
-
-    Annotations: 
-        rdfs:label "crisper"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000240>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000242>
-
-    Annotations: 
-        rdfs:label "talen"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000240>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000138>
-
-    Annotations: 
-        rdfs:label "retinal damage"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000137>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000240>
-
-    Annotations: 
-        rdfs:label "genetic treatment"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000128>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000136>
-
-    Annotations: 
-        rdfs:label "barbel amputation"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000131>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000135>
-
-    Annotations: 
-        rdfs:label "heart amputation"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000131>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000134>
-
-    Annotations: 
-        rdfs:label "pectoral fin amputation"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000132>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000133>
-
-    Annotations: 
-        rdfs:label "caudal fin amputation"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000132>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000132>
-
-    Annotations: 
-        rdfs:label "fin amputation"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000131>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000131>
-
-    Annotations: 
-        rdfs:label "surgical removal"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000129>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000137>
-
-    Annotations: 
-        rdfs:label "targeted damage (ablation)"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000129>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000199>
-
-    Annotations: 
-        rdfs:label "fat content"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000198>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000198>
-
-    Annotations: 
-        rdfs:label "food content"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000193>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000197>
-
-    Annotations: 
-        rdfs:label "unlimited availability"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000194>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000196>
-
-    Annotations: 
-        rdfs:label "limited availability"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000194>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000195>
-
-    Annotations: 
-        rdfs:label "fasting"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000194>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000194>
-
-    Annotations: 
-        rdfs:label "food availability"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000193>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000193>
-
-    Annotations: 
-        rdfs:label "diet"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000128>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000192>
-
-    Annotations: 
-        rdfs:label "heat shock"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000190>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000191>
-
-    Annotations: 
-        rdfs:label "cold shock"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000190>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000190>
-
-    Annotations: 
-        rdfs:label "exposure to temperature shock"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000128>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000239>
-
-    Annotations: 
-        rdfs:label "chemical treatment"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000128>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000238>
-
-    Annotations: 
-        rdfs:label "protozoan treatment"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000234>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000237>
-
-    Annotations: 
-        rdfs:label "viral treatment"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000234>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000236>
-
-    Annotations: 
-        rdfs:label "fungal treatment"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000234>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000235>
-
-    Annotations: 
-        rdfs:label "bacterial treatment"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000234>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000234>
-
-    Annotations: 
-        rdfs:label "biological treatment"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000128>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000233>
-
-    Annotations: 
-        rdfs:label "low intensity"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000231>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000129>
-
-    Annotations: 
-        rdfs:label "physical experimental conditions"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000128>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000128>
-
-    Annotations: 
-        rdfs:label "experimental conditions"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000124>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000230>
-
-    Annotations: 
-        rdfs:label "altered light/dark cycle"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000227>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000126>
-
-    Annotations: 
-        rdfs:label "generic control"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000125>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000125>
-
-    Annotations: 
-        rdfs:label "control conditions"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000124>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000124>
-
-    Annotations: 
-        rdfs:label "conditions"@en
-    
-    SubClassOf: 
-        owl:Thing
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000189>
-
-    Annotations: 
-        rdfs:label "hot exposure"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000186>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000188>
-
-    Annotations: 
-        rdfs:label "cold exposure"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000186>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000187>
-
-    Annotations: 
-        rdfs:label "stable temperature exposure"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000186>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000186>
-
-    Annotations: 
-        rdfs:label "temperature exposure"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000128>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000185>
-
-    Annotations: 
-        rdfs:label "open roofed"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000183>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000184>
-
-    Annotations: 
-        rdfs:label "overcrowding"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000183>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000183>
-
-    Annotations: 
-        rdfs:label "housing conditions"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000128>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000182>
-
-    Annotations: 
-        rdfs:label "germ free"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000156>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000181>
-
-    Annotations: 
-        rdfs:label "basic"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000179>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000180>
-
-    Annotations: 
-        rdfs:label "acidic"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000179>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000229>
-
-    Annotations: 
-        rdfs:label "constant dark"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000227>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000228>
-
-    Annotations: 
-        rdfs:label "constant light"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000227>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000227>
-
-    Annotations: 
-        rdfs:label "light duration"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000226>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000226>
-
-    Annotations: 
-        rdfs:label "lighting conditions"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000128>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000225>
-
-    Annotations: 
-        rdfs:label "radionuclides"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000223>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000172>
-
-    Annotations: 
-        rdfs:label "low calcium"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000170>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000223>
-
-    Annotations: 
-        rdfs:label "food contaminated content"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000198>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000222>
-
-    Annotations: 
-        rdfs:label "low protein"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000220>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000221>
-
-    Annotations: 
-        rdfs:label "high protein"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000220>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000220>
-
-    Annotations: 
-        rdfs:label "protein content"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000198>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000139>
-
-    Annotations: 
-        rdfs:label "high intensity light"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000138>
-    
-    
-Class: owl:Thing
-
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000179>
-
-    Annotations: 
-        rdfs:label "ph (of the environment) hydrogen ion concentration"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000169>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000178>
-
-    Annotations: 
-        rdfs:label "low potassium"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000176>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000177>
-
-    Annotations: 
-        rdfs:label "high potassium"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000176>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000176>
-
-    Annotations: 
-        rdfs:label "modified potassium"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000169>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000175>
-
-    Annotations: 
-        rdfs:label "low sodium"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000173>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000174>
-
-    Annotations: 
-        rdfs:label "high sodium"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000173>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000173>
-
-    Annotations: 
-        rdfs:label "modified sodium composition"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000169>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000241>
-
-    Annotations: 
-        rdfs:label "mo"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000240>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000171>
-
-    Annotations: 
-        rdfs:label "high calcium"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000170>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000170>
-
-    Annotations: 
-        rdfs:label "modified calcium composition"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000169>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000219>
-
-    Annotations: 
-        rdfs:label "low  sucrose"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000216>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000218>
-
-    Annotations: 
-        rdfs:label "low fructose"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000216>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000217>
-
-    Annotations: 
-        rdfs:label "low glucose"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000216>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000216>
-
-    Annotations: 
-        rdfs:label "low sugar"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000211>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000215>
-
-    Annotations: 
-        rdfs:label "high sucrose"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000212>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000214>
-
-    Annotations: 
-        rdfs:label "high fructose"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000212>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000213>
-
-    Annotations: 
-        rdfs:label "high glucose"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000212>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000212>
-
-    Annotations: 
-        rdfs:label "high sugar"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000211>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000211>
-
-    Annotations: 
-        rdfs:label "sugar content"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000198>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000210>
-
-    Annotations: 
-        rdfs:label "low cholesterol"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000208>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000224>
-
-    Annotations: 
-        rdfs:label "lead"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000223>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000169>
-
-    Annotations: 
-        rdfs:label "ion composition"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000156>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000168>
-
-    Annotations: 
-        rdfs:label "stable"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000164>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000167>
-
-    Annotations: 
-        rdfs:label "isotonic"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000164>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000127>
-
-    Annotations: 
-        rdfs:label "standard"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000125>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000165>
-
-    Annotations: 
-        rdfs:label "hypertonic"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000164>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000164>
-
-    Annotations: 
-        rdfs:label "water salinity"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000156>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000163>
-
-    Annotations: 
-        rdfs:label "hyperoxia"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000161>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000162>
-
-    Annotations: 
-        rdfs:label "hypoxia"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000161>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000161>
-
-    Annotations: 
-        rdfs:label "oxygen content"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000157>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000160>
-
-    Annotations: 
-        rdfs:label "hypercapnia"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000158>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000209>
-
-    Annotations: 
-        rdfs:label "high cholesterol"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000208>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000208>
-
-    Annotations: 
-        rdfs:label "cholesterol content"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000198>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000207>
-
-    Annotations: 
-        rdfs:label "low hdl"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000204>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000206>
-
-    Annotations: 
-        rdfs:label "low ldl"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000204>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000205>
-
-    Annotations: 
-        rdfs:label "low triglyceride"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000204>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000204>
-
-    Annotations: 
-        rdfs:label "low fat"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000198>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000203>
-
-    Annotations: 
-        rdfs:label "high hdl"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000199>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000202>
-
-    Annotations: 
-        rdfs:label "high ldl"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000199>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000201>
-
-    Annotations: 
-        rdfs:label "high triglyceride"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000199>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000200>
-
-    Annotations: 
-        rdfs:label "high fat"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000199>
-    
-    
-Class: <http://purl.obolibrary.org/obo/ZECO_0000231>
-
-    Annotations: 
-        rdfs:label "light intensity"@en
-    
-    SubClassOf: 
-        <http://purl.obolibrary.org/obo/ZECO_0000226>
-    
-    
