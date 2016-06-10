@@ -3,7 +3,8 @@
     <uri id="Imports Wizard Entry" name="http://ontofox.hegroup.org/4erinc9c.owl" uri="chebi-slim-7-17-2015.owl"/>
     <uri id="User Entered Import Resolution" name="http://ontofox.hegroup.org/http://purl.obolibrary.org/obo/zeco.owl" uri="file:/C:/Users/Ceri/Desktop/zfin%20scratch/better%20chebi%20slim.owl"/>
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1437168848516" name="http://ontofox.hegroup.org/4erinc9c.owl" uri="chebi-slim-7-17-2015.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1437168848516" name="http://ontofox.hegroup.org/4ykxw7hb.owl" uri="ZECOldCHEBI.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1464038463239" name="/http://purl.obolibrary.org/obo/zeco.owl" uri="zeco.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1464038463239" name="http://ontofox.hegroup.org/4erinc9c.owl" uri="chebi-slim-7-17-2015.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1464038463239" name="http://ontofox.hegroup.org/4ykxw7hb.owl" uri="ZECOldCHEBI.owl"/>
     </group>
 </catalog>
