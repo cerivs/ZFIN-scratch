@@ -267,8 +267,8 @@
     <!-- http://purl.obolibrary.org/obo/ZECO_0000103 -->
 
     <owl:Class rdf:about="&obo;ZECO_0000103">
-        <rdfs:label xml:lang="en">standard</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;ZECO_0000101"/>
+        <rdfs:label xml:lang="en">standard conditions</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/yvonne/ontologies/2016/4/untitled-ontology-163/ZECO_0000100"/>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">Experimental condition that is the standard environment for zebrafish husbandry, as described in ‘The Zebrafish Book’. In general the standard environment utilizes contaminant free tank water, heated to 28.5 degrees C, with the fish fed a normal contaminant free diet, with standard osmolarity, pH, and normal light cycle of 14hr light/10hr dark.</obo:IAO_0000115>
     </owl:Class>
     
@@ -547,8 +547,8 @@
     <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000131 -->
 
     <owl:Class rdf:about="&obo;zeco.owl/ZECO_0000131">
-        <rdfs:label xml:lang="en">sugar content</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;zeco.owl/ZECO_0000117"/>
+        <rdfs:label xml:lang="en">stress</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;zeco.owl/ZECO_0000104"/>
     </owl:Class>
     
 
@@ -557,7 +557,7 @@
 
     <owl:Class rdf:about="&obo;zeco.owl/ZECO_0000132">
         <rdfs:label xml:lang="en">high sugar</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;zeco.owl/ZECO_0000131"/>
+        <rdfs:subClassOf rdf:resource="&obo;zeco.owl/ZECO_0000241"/>
     </owl:Class>
     
 
@@ -593,7 +593,7 @@
 
     <owl:Class rdf:about="&obo;zeco.owl/ZECO_0000136">
         <rdfs:label xml:lang="en">low sugar</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;zeco.owl/ZECO_0000131"/>
+        <rdfs:subClassOf rdf:resource="&obo;zeco.owl/ZECO_0000242"/>
     </owl:Class>
     
 
@@ -768,7 +768,7 @@
 
     <owl:Class rdf:about="&obo;zeco.owl/ZECO_0000155">
         <rdfs:label xml:lang="en">mechanical stress</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;zeco.owl/ZECO_0000104"/>
+        <rdfs:subClassOf rdf:resource="&obo;zeco.owl/ZECO_0000131"/>
         <obo:IAO_0000115>Experimental condition in which an external mechanical force is applied to the fish or part of the fish.</obo:IAO_0000115>
     </owl:Class>
     
@@ -933,9 +933,9 @@
     <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000173 -->
 
     <owl:Class rdf:about="&obo;zeco.owl/ZECO_0000173">
-        <rdfs:label xml:lang="en">barbel resection</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;zeco.owl/ZECO_0000171"/>
-        <obo:IAO_0000115>Resection condition in which the barbel is removed.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">vaccine treatment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;zeco.owl/ZECO_0000105"/>
+        <obo:IAO_0000115>Biological treatment in which the organism is treated with a substance to stimulate the production of antibodies and provide immunity against one or several diseases.</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -943,9 +943,9 @@
     <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000174 -->
 
     <owl:Class rdf:about="&obo;zeco.owl/ZECO_0000174">
-        <rdfs:label xml:lang="en">heart resection</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;zeco.owl/ZECO_0000171"/>
-        <obo:IAO_0000115>Resection condition in which the heart is removed.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">laceration</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;zeco.owl/ZECO_0000229"/>
+        <obo:IAO_0000115>Experimental condition in which there is a deep cut or tear of the flesh.</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -954,7 +954,7 @@
 
     <owl:Class rdf:about="&obo;zeco.owl/ZECO_0000176">
         <rdfs:label xml:lang="en">surgical manipulation</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;zeco.owl/ZECO_0000104"/>
+        <rdfs:subClassOf rdf:resource="&obo;zeco.owl/ZECO_0000229"/>
         <obo:IAO_0000115>Experimental condition that involves  manual or instrumental techniques to alter anatomical structures.</obo:IAO_0000115>
     </owl:Class>
     
@@ -973,8 +973,9 @@
     <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000178 -->
 
     <owl:Class rdf:about="&obo;zeco.owl/ZECO_0000178">
-        <rdfs:label xml:lang="en">retinal perforation</rdfs:label>
+        <rdfs:label xml:lang="en">perforation</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;zeco.owl/ZECO_0000229"/>
+        <obo:IAO_0000115>Experimental condition in which a hole or break in the membranes of an organ or structure of the body is created.</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -1004,7 +1005,7 @@
     <owl:Class rdf:about="&obo;zeco.owl/ZECO_0000181">
         <rdfs:label xml:lang="en">transection</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;zeco.owl/ZECO_0000176"/>
-        <obo:IAO_0000115>Cutting transversly of an organ or tissue. Type of cutting often used to divide spinal cord to investigate neural regeneration in zebrafish.</obo:IAO_0000115>
+        <obo:IAO_0000115>Cutting transversly of an organ or tissue. Type of cutting often used to divide the spinal cord to investigate neural regeneration in zebrafish.</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -1445,10 +1446,9 @@
     <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000229 -->
 
     <owl:Class rdf:about="&obo;zeco.owl/ZECO_0000229">
-        <rdfs:label xml:lang="en">physical damage</rdfs:label>
+        <rdfs:label xml:lang="en">physical alteration</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;zeco.owl/ZECO_0000104"/>
-        <obo:IAO_0000115>Experimental condition in which the tissue of the zebrafish is injured in some way.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>wounding</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>Experimental condition in which an anatomical structure, cell, or organ has sustained targeted physical change, usually through the use of an instrument.</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -1468,7 +1468,7 @@
     <owl:Class rdf:about="&obo;zeco.owl/ZECO_0000231">
         <rdfs:label xml:lang="en">bacterial treatment by exposure to environment</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;zeco.owl/ZECO_0000106"/>
-        <obo:IAO_0000115>Bacterial treatment where the bacteria are introduced via the tank water of the zebrafish.</obo:IAO_0000115>
+        <obo:IAO_0000115>Bacterial treatment where the bacteria are introduced via the environment. For zebrafish this is the tank water.</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -1488,7 +1488,7 @@
     <owl:Class rdf:about="&obo;zeco.owl/ZECO_0000233">
         <rdfs:label xml:lang="en">fungal treatment by exposure to environment</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;zeco.owl/ZECO_0000107"/>
-        <obo:IAO_0000115>Fungal treatment where the fungus is introduced via the tank water of the zebrafish.</obo:IAO_0000115>
+        <obo:IAO_0000115>Fungal treatment where the fungus is introduced via the environment. For zebrafish this is the tank water.</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -1498,7 +1498,7 @@
     <owl:Class rdf:about="&obo;zeco.owl/ZECO_0000234">
         <rdfs:label xml:lang="en">viral treatment by exposure to environment</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;zeco.owl/ZECO_0000110"/>
-        <obo:IAO_0000115>Viral treatment where the virus is introduced via the tank water of the zebrafish.</obo:IAO_0000115>
+        <obo:IAO_0000115>Viral treatment where the virus is introduced via the environment. For zebrafish this is the tank water.</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -1546,9 +1546,66 @@
     <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000239 -->
 
     <owl:Class rdf:about="&obo;zeco.owl/ZECO_0000239">
-        <rdfs:label xml:lang="en">chemical treatment by consumption</rdfs:label>
+        <rdfs:label xml:lang="en">chemical treatment by diet</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;zeco.owl/ZECO_0000111"/>
-        <obo:IAO_0000115>Chemical treatment condition inwhich the chemical is introduced through the diet.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="&obo;zeco.owl/ZECO_0000112"/>
+        <obo:IAO_0000115>Chemical treatment condition in which the chemical is introduced through the diet.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000240 -->
+
+    <owl:Class rdf:about="&obo;zeco.owl/ZECO_0000240">
+        <rdfs:label xml:lang="en">carbohydrate content</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;zeco.owl/ZECO_0000117"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000241 -->
+
+    <owl:Class rdf:about="&obo;zeco.owl/ZECO_0000241">
+        <rdfs:label xml:lang="en">high carbohydrate</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;zeco.owl/ZECO_0000240"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000242 -->
+
+    <owl:Class rdf:about="&obo;zeco.owl/ZECO_0000242">
+        <rdfs:label xml:lang="en">low carbohydrate</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;zeco.owl/ZECO_0000240"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000243 -->
+
+    <owl:Class rdf:about="&obo;zeco.owl/ZECO_0000243">
+        <rdfs:label xml:lang="en">stress by handling</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;zeco.owl/ZECO_0000131"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000244 -->
+
+    <owl:Class rdf:about="&obo;zeco.owl/ZECO_0000244">
+        <rdfs:label xml:lang="en">ultrasound</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;zeco.owl/ZECO_0000156"/>
+        <obo:IAO_0000115>Mechanical stress condition where the organism is subjected to vibrations having an ultrasonic frequency.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/zeco.owl/ZECO_0000245 -->
+
+    <owl:Class rdf:about="&obo;zeco.owl/ZECO_0000245">
+        <rdfs:label xml:lang="en">light damage</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;zeco.owl/ZECO_0000229"/>
+        <obo:IAO_0000115>Physical alteration which uses light to damage the anatomical structure, cell, or organ.</obo:IAO_0000115>
     </owl:Class>
     
 

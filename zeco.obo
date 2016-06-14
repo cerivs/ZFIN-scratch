@@ -25,9 +25,9 @@ is_a: ZECO:0000101 ! control conditions
 
 [Term]
 id: ZECO:0000103
-name: standard
+name: standard conditions
 def: "Experimental condition that is the standard environment for zebrafish husbandry, as described in ‘The Zebrafish Book’. In general the standard environment utilizes contaminant free tank water, heated to 28.5 degrees C, with the fish fed a normal contaminant free diet, with standard osmolarity, pH, and normal light cycle of 14hr light/10hr dark." []
-is_a: ZECO:0000101 ! control conditions
+is_a: ZECO:0000100 ! conditions
 
 [Term]
 id: ZECO:0000104
@@ -193,13 +193,13 @@ is_a: ZECO:0000128 ! protein content
 
 [Term]
 id: ZECO:0000131
-name: sugar content
-is_a: ZECO:0000117 ! food content
+name: stress
+is_a: ZECO:0000104 ! experimental conditions
 
 [Term]
 id: ZECO:0000132
 name: high sugar
-is_a: ZECO:0000131 ! sugar content
+is_a: ZECO:0000241 ! high carbohydrate
 
 [Term]
 id: ZECO:0000133
@@ -219,7 +219,7 @@ is_a: ZECO:0000132 ! high sugar
 [Term]
 id: ZECO:0000136
 name: low sugar
-is_a: ZECO:0000131 ! sugar content
+is_a: ZECO:0000242 ! low carbohydrate
 
 [Term]
 id: ZECO:0000137
@@ -319,7 +319,7 @@ is_a: ZECO:0000104 ! experimental conditions
 id: ZECO:0000155
 name: mechanical stress
 def: "Experimental condition in which an external mechanical force is applied to the fish or part of the fish." []
-is_a: ZECO:0000104 ! experimental conditions
+is_a: ZECO:0000131 ! stress
 
 [Term]
 id: ZECO:0000156
@@ -387,7 +387,7 @@ is_a: ZECO:0000164 ! temperature shock
 id: ZECO:0000168
 name: ablation
 def: "Targeted destruction of an anatomical structure." []
-is_a: ZECO:0000229 ! physical damage
+is_a: ZECO:0000229 ! physical alteration
 
 [Term]
 id: ZECO:0000169
@@ -415,21 +415,21 @@ is_a: ZECO:0000171 ! resection
 
 [Term]
 id: ZECO:0000173
-name: barbel resection
-def: "Resection condition in which the barbel is removed." []
-is_a: ZECO:0000171 ! resection
+name: vaccine treatment
+def: "Biological treatment in which the organism is treated with a substance to stimulate the production of antibodies and provide immunity against one or several diseases." []
+is_a: ZECO:0000105 ! biological treatment
 
 [Term]
 id: ZECO:0000174
-name: heart resection
-def: "Resection condition in which the heart is removed." []
-is_a: ZECO:0000171 ! resection
+name: laceration
+def: "Experimental condition in which there is a deep cut or tear of the flesh." []
+is_a: ZECO:0000229 ! physical alteration
 
 [Term]
 id: ZECO:0000176
 name: surgical manipulation
 def: "Experimental condition that involves  manual or instrumental techniques to alter anatomical structures." []
-is_a: ZECO:0000104 ! experimental conditions
+is_a: ZECO:0000229 ! physical alteration
 
 [Term]
 id: ZECO:0000177
@@ -439,25 +439,26 @@ is_a: ZECO:0000176 ! surgical manipulation
 
 [Term]
 id: ZECO:0000178
-name: retinal perforation
-is_a: ZECO:0000229 ! physical damage
+name: perforation
+def: "Experimental condition in which a hole or break in the membranes of an organ or structure of the body is created." []
+is_a: ZECO:0000229 ! physical alteration
 
 [Term]
 id: ZECO:0000179
 name: abrasion
 def: "Experimental condition that results in superficial damage of tissue such that it is scraped or worn away." []
-is_a: ZECO:0000229 ! physical damage
+is_a: ZECO:0000229 ! physical alteration
 
 [Term]
 id: ZECO:0000180
 name: contusion
 def: "Experimental condition that results in hematoma of tissue in which capillaries and sometimes venules are damaged by trauma, allowing blood to seep, hemorrhage, or extravasate into the surrounding interstitial tissues. (https://en.wikipedia.org/wiki/Bruise)" []
-is_a: ZECO:0000229 ! physical damage
+is_a: ZECO:0000229 ! physical alteration
 
 [Term]
 id: ZECO:0000181
 name: transection
-def: "Cutting transversly of an organ or tissue. Type of cutting often used to divide spinal cord to investigate neural regeneration in zebrafish." []
+def: "Cutting transversly of an organ or tissue. Type of cutting often used to divide the spinal cord to investigate neural regeneration in zebrafish." []
 is_a: ZECO:0000176 ! surgical manipulation
 
 [Term]
@@ -707,9 +708,8 @@ is_a: ZECO:0000125 ! low fat
 
 [Term]
 id: ZECO:0000229
-name: physical damage
-def: "Experimental condition in which the tissue of the zebrafish is injured in some way." []
-synonym: "wounding" EXACT []
+name: physical alteration
+def: "Experimental condition in which an anatomical structure, cell, or organ has sustained targeted physical change, usually through the use of an instrument." []
 is_a: ZECO:0000104 ! experimental conditions
 
 [Term]
@@ -721,7 +721,7 @@ is_a: ZECO:0000106 ! bacterial treatment
 [Term]
 id: ZECO:0000231
 name: bacterial treatment by exposure to environment
-def: "Bacterial treatment where the bacteria are introduced via the tank water of the zebrafish." []
+def: "Bacterial treatment where the bacteria are introduced via the environment. For zebrafish this is the tank water." []
 is_a: ZECO:0000106 ! bacterial treatment
 
 [Term]
@@ -733,13 +733,13 @@ is_a: ZECO:0000107 ! fungal treatment
 [Term]
 id: ZECO:0000233
 name: fungal treatment by exposure to environment
-def: "Fungal treatment where the fungus is introduced via the tank water of the zebrafish." []
+def: "Fungal treatment where the fungus is introduced via the environment. For zebrafish this is the tank water." []
 is_a: ZECO:0000107 ! fungal treatment
 
 [Term]
 id: ZECO:0000234
 name: viral treatment by exposure to environment
-def: "Viral treatment where the virus is introduced via the tank water of the zebrafish." []
+def: "Viral treatment where the virus is introduced via the environment. For zebrafish this is the tank water." []
 is_a: ZECO:0000110 ! viral treatment
 
 [Term]
@@ -768,9 +768,42 @@ is_a: ZECO:0000111 ! chemical treatment
 
 [Term]
 id: ZECO:0000239
-name: chemical treatment by consumption
-def: "Chemical treatment condition inwhich the chemical is introduced through the diet." []
+name: chemical treatment by diet
+def: "Chemical treatment condition in which the chemical is introduced through the diet." []
 is_a: ZECO:0000111 ! chemical treatment
+is_a: ZECO:0000112 ! diet
+
+[Term]
+id: ZECO:0000240
+name: carbohydrate content
+is_a: ZECO:0000117 ! food content
+
+[Term]
+id: ZECO:0000241
+name: high carbohydrate
+is_a: ZECO:0000240 ! carbohydrate content
+
+[Term]
+id: ZECO:0000242
+name: low carbohydrate
+is_a: ZECO:0000240 ! carbohydrate content
+
+[Term]
+id: ZECO:0000243
+name: stress by handling
+is_a: ZECO:0000131 ! stress
+
+[Term]
+id: ZECO:0000244
+name: ultrasound
+def: "Mechanical stress condition where the organism is subjected to vibrations having an ultrasonic frequency." []
+is_a: ZECO:0000156 ! vibration
+
+[Term]
+id: ZECO:0000245
+name: light damage
+def: "Physical alteration which uses light to damage the anatomical structure, cell, or organ." []
+is_a: ZECO:0000229 ! physical alteration
 
 [Typedef]
 id: has_component
